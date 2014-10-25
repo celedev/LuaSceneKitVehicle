@@ -15,18 +15,18 @@
 			YmluZGluZ3MAHAAAAAEGAAAEAAAAFAAAACQAAAA0AAAAUAAAAGwA
 			AAB8AAAACAAAAAQDAAB8ZAIAAAAAAAgAAAAEAwAAw3tOAAAAAAAI
 			AAAABAMAADh8TgAAAAAACAAAAAQDAAA+fE4AAAAAAAgAAAAEAwAA
-			WmJUAAAAAAAIAAAABAMAAFxiVAAAAAAACAAAAAQDAADkC5EAAAAA
+			WmJUAAAAAAAIAAAABAMAAFxiVAAAAAAACAAAAAQDAADZtJsAAAAA
 			ABwAAAABBgAAwAAAANAAAADgAAAA8AAAAAABAAAQAQAAIAEAAAgA
-			AAAABAAAQbnUFKQAAAAYAAAAAQIAAAIAAAAAAAAADwAAAAAAAAAA
+			AAAABAAAQbn2va8AAAAYAAAAAQIAAAIAAAAAAAAADwAAAAAAAAAA
 			AAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPcBAAAMAAAA
 			AQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAAAGzgMBAAAIAAAAAAQA
 			AEG4Iv/AAAAAJAAAAAEBAAAxQkIzNEI4QS03RjU5LTNDMjktOUJB
 			OS0yMTNBRTg0OTM4NkUYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAA
 			AAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAABAAAAAMDAAAAAwAA
-			8gAAAAECAABmYmJhNWJmNzlhZTdiNTFmYjk3ZTRhYjdlNmYyNzQy
-			OTAyYWIzYTFjOzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAwMDAwMDAw
+			8gAAAAECAABmNDM4Yzc0NTQxNDk4MzY1NmZiOWRhNDc5YmViMjQ5
+			MjdhMDcyOWJhOzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAwMDAwMDAw
 			MDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3JpdGU7
-			MDAwMDAwMDE7MDEwMDAwMDg7MDAwMDAwMDAwMDkxMGJlNDsvdXNl
+			MDAwMDAwMDE7MDEwMDAwMDg7MDAwMDAwMDAwMDliYjRkOTsvdXNl
 			cnMvamVhbi1sdWMvbGlicmFyeS9hcHBsaWNhdGlvbiBzdXBwb3J0
 			L2NvbS5jZWxlZGV2LmNvZGVmbG93L2lwaG9uZW9zL2lvcy04LjAt
 			c2RrLmx1YWJpbmRpbmdzAAAAzAAAAP7///8BAAAAAAAAABAAAAAE
@@ -49,7 +49,7 @@
 	<key>Program Display Info</key>
 	<dict>
 		<key>LuaAppDocument remote Lua service</key>
-		<string>SceneKitVehicle - SceneHandler (Astérie)</string>
+		<string>SceneKitVehicle - SceneHandler (iPad Celedev 1)</string>
 		<key>LuaAppDocument-associatedXodeProject</key>
 		<dict>
 			<key>platform</key>
@@ -62,10 +62,23 @@
 		<key>LuaAppWindow edited source path</key>
 		<string>GameViewController</string>
 		<key>LuaAppWindow frame</key>
-		<string>1144 193 1222 1203 0 0 2560 1418 </string>
+		<string>955 590 1430 771 0 0 2560 1418 </string>
 	</dict>
 	<key>Program Format Version</key>
 	<string>0.9</string>
+	<key>Program Groups Order</key>
+	<dict>
+		<key></key>
+		<array>
+			<string>GameViewController</string>
+			<string>floor</string>
+			<string>wall</string>
+			<string>WoodCubeA</string>
+			<string>WoodCubeB</string>
+			<string>WoodCubeC</string>
+			<string>carpet</string>
+		</array>
+	</dict>
 	<key>Program Source Files Info</key>
 	<dict>
 		<key></key>
@@ -87,17 +100,125 @@
 			<key>Source File Name</key>
 			<string>GameViewController</string>
 			<key>SourceItemChangeTime</key>
-			<real>433371506.31546998</real>
+			<real>435842977.69935</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>13869</integer>
+				<integer>18050</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>3123</integer>
+				<integer>1116</integer>
 				<key>SrcEditor Visible Location</key>
-				<integer>13531</integer>
+				<integer>12723</integer>
+			</dict>
+		</dict>
+		<key>WoodCubeA</key>
+		<dict>
+			<key>SourceItemChangeTime</key>
+			<real>435791328.92438799</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ImageViewerMagnification</key>
+				<real>1</real>
+				<key>ImageViewerVisibleHeight</key>
+				<real>256</real>
+				<key>ImageViewerVisibleOriginX</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleOriginY</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleWidth</key>
+				<real>256</real>
+			</dict>
+		</dict>
+		<key>WoodCubeB</key>
+		<dict>
+			<key>SourceItemChangeTime</key>
+			<real>435674921.12128001</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ImageViewerMagnification</key>
+				<real>1</real>
+				<key>ImageViewerVisibleHeight</key>
+				<real>256</real>
+				<key>ImageViewerVisibleOriginX</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleOriginY</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleWidth</key>
+				<real>256</real>
+			</dict>
+		</dict>
+		<key>WoodCubeC</key>
+		<dict>
+			<key>SourceItemChangeTime</key>
+			<real>434626815.44217199</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ImageViewerMagnification</key>
+				<real>1</real>
+				<key>ImageViewerVisibleHeight</key>
+				<real>256</real>
+				<key>ImageViewerVisibleOriginX</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleOriginY</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleWidth</key>
+				<real>256</real>
+			</dict>
+		</dict>
+		<key>carpet</key>
+		<dict>
+			<key>SourceItemChangeTime</key>
+			<real>435674826.71158099</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ImageViewerMagnification</key>
+				<real>1</real>
+				<key>ImageViewerVisibleHeight</key>
+				<real>256</real>
+				<key>ImageViewerVisibleOriginX</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleOriginY</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleWidth</key>
+				<real>512</real>
+			</dict>
+		</dict>
+		<key>floor</key>
+		<dict>
+			<key>SourceItemChangeTime</key>
+			<real>435842913.49389303</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ImageViewerMagnification</key>
+				<real>1</real>
+				<key>ImageViewerVisibleHeight</key>
+				<real>500</real>
+				<key>ImageViewerVisibleOriginX</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleOriginY</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleWidth</key>
+				<real>500</real>
+			</dict>
+		</dict>
+		<key>wall</key>
+		<dict>
+			<key>SourceItemChangeTime</key>
+			<real>435842873.53099102</real>
+			<key>SourceItemDisplayInfo</key>
+			<dict>
+				<key>ImageViewerMagnification</key>
+				<real>1</real>
+				<key>ImageViewerVisibleHeight</key>
+				<real>559</real>
+				<key>ImageViewerVisibleOriginX</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleOriginY</key>
+				<real>0.0</real>
+				<key>ImageViewerVisibleWidth</key>
+				<real>171</real>
 			</dict>
 		</dict>
 	</dict>
