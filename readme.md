@@ -35,7 +35,7 @@ Works on iPhone or iPad, running iOS 8 or later. The Xcode project requires Xcod
 
   **Most probable cause**: if you are using Xcode 5 (and thus iOS 7.1 SDK), these errors occur because the sample app is configured for the iOS 8 SDK.
 
-  **⇒ Fix**: this application requires iOS 8, so you can run it only from Xcode 6 or later.
+  **⇒ Fix**: this application requires iOS 8, so you have to run it only from Xcode 6 or later.
 
 ## License
 

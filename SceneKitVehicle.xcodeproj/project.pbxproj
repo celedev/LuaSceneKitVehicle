@@ -10,10 +10,25 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>02B766B554214E70A0CDE032</key>
+		<key>1094417796CF4A788870D0FA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>archive.ar</string>
+			<key>name</key>
+			<string>libCIMLuaBindingCoreGraphics.a</string>
+			<key>path</key>
+			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs/libCIMLuaBindingCoreGraphics.a</string>
+			<key>sourceTree</key>
+			<string>&lt;absolute&gt;</string>
+		</dict>
+		<key>10F24D76AABC4A5F84D2BC20</key>
 		<dict>
 			<key>fileRef</key>
-			<string>82EB266497344F0CB6D037B3</string>
+			<string>80B34F3E4B294BAFB85476FC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -131,11 +146,11 @@
 				<string>15A1C955D5C341F68FC0E12E</string>
 				<string>C14DB9115C4A46758EC2BB07</string>
 				<string>584038A27C7C4E46A68C9658</string>
-				<string>2D2FC9E02DC741019290FECE</string>
-				<string>71A502F9D0534F3F9A403947</string>
-				<string>82EB266497344F0CB6D037B3</string>
 				<string>337285BF5D8E44A390806476</string>
-				<string>940372EFDFB3435EB23A0F93</string>
+				<string>9CADD8A015C342A982098956</string>
+				<string>1094417796CF4A788870D0FA</string>
+				<string>1E71BF94B6464EAF89C81C42</string>
+				<string>80B34F3E4B294BAFB85476FC</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
@@ -157,14 +172,7 @@
 			<key>sourceTree</key>
 			<string>SDKROOT</string>
 		</dict>
-		<key>2580C7875B8F401BBA1DF502</key>
-		<dict>
-			<key>fileRef</key>
-			<string>940372EFDFB3435EB23A0F93</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2D2FC9E02DC741019290FECE</key>
+		<key>1E71BF94B6464EAF89C81C42</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -173,11 +181,18 @@
 			<key>lastKnownFileType</key>
 			<string>archive.ar</string>
 			<key>name</key>
-			<string>libCIMLuaBindingSceneKit.a</string>
+			<string>libCIMLuaBindingFoundation.a</string>
 			<key>path</key>
-			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.0-SDK.luabindings/BindingLibs/libCIMLuaBindingSceneKit.a</string>
+			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs/libCIMLuaBindingFoundation.a</string>
 			<key>sourceTree</key>
 			<string>&lt;absolute&gt;</string>
+		</dict>
+		<key>2BB82FF4B6584285877D6261</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1E71BF94B6464EAF89C81C42</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>337285BF5D8E44A390806476</key>
 		<dict>
@@ -229,44 +244,21 @@
 			<key>sourceTree</key>
 			<string>SDKROOT</string>
 		</dict>
-		<key>71A502F9D0534F3F9A403947</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libCIMLuaBindingUIKit.a</string>
-			<key>path</key>
-			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.0-SDK.luabindings/BindingLibs/libCIMLuaBindingUIKit.a</string>
-			<key>sourceTree</key>
-			<string>&lt;absolute&gt;</string>
-		</dict>
-		<key>82EB266497344F0CB6D037B3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>archive.ar</string>
-			<key>name</key>
-			<string>libCIMLuaBindingFoundation.a</string>
-			<key>path</key>
-			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.0-SDK.luabindings/BindingLibs/libCIMLuaBindingFoundation.a</string>
-			<key>sourceTree</key>
-			<string>&lt;absolute&gt;</string>
-		</dict>
-		<key>922AA0BD61BF47088A251CA6</key>
+		<key>6DAC743A6DCE4E1584326F96</key>
 		<dict>
 			<key>fileRef</key>
-			<string>71A502F9D0534F3F9A403947</string>
+			<string>9CADD8A015C342A982098956</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>940372EFDFB3435EB23A0F93</key>
+		<key>6FE27CD773F84765BA583656</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1094417796CF4A788870D0FA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>80B34F3E4B294BAFB85476FC</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -275,9 +267,9 @@
 			<key>lastKnownFileType</key>
 			<string>archive.ar</string>
 			<key>name</key>
-			<string>libCIMLuaBindingCoreGraphics.a</string>
+			<string>libCIMLuaBindingSceneKit.a</string>
 			<key>path</key>
-			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.0-SDK.luabindings/BindingLibs/libCIMLuaBindingCoreGraphics.a</string>
+			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs/libCIMLuaBindingSceneKit.a</string>
 			<key>sourceTree</key>
 			<string>&lt;absolute&gt;</string>
 		</dict>
@@ -529,11 +521,11 @@
 				<string>BF40B7C534FB4B10BF2A2676</string>
 				<string>E4D9081B4AEE49C2BAD00562</string>
 				<string>FF1BBA342BA74129A0BBCD85</string>
-				<string>A4852897C2304217946280D8</string>
-				<string>922AA0BD61BF47088A251CA6</string>
-				<string>02B766B554214E70A0CDE032</string>
 				<string>DE14F810BFA240E3B6CFA7C5</string>
-				<string>2580C7875B8F401BBA1DF502</string>
+				<string>6DAC743A6DCE4E1584326F96</string>
+				<string>6FE27CD773F84765BA583656</string>
+				<string>2BB82FF4B6584285877D6261</string>
+				<string>10F24D76AABC4A5F84D2BC20</string>
 			</array>
 			<key>isa</key>
 			<string>PBXFrameworksBuildPhase</string>
@@ -1180,7 +1172,7 @@
 				<key>LIBRARY_SEARCH_PATHS</key>
 				<array>
 					<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos"</string>
-					<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.0-SDK.luabindings/BindingLibs"</string>
+					<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs"</string>
 				</array>
 				<key>OTHER_LDFLAGS</key>
 				<string>-ObjC</string>
@@ -1227,7 +1219,7 @@
 				<key>LIBRARY_SEARCH_PATHS</key>
 				<array>
 					<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos"</string>
-					<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.0-SDK.luabindings/BindingLibs"</string>
+					<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs"</string>
 				</array>
 				<key>OTHER_LDFLAGS</key>
 				<string>-ObjC</string>
@@ -1854,6 +1846,21 @@
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
+		<key>9CADD8A015C342A982098956</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>archive.ar</string>
+			<key>name</key>
+			<string>libCIMLuaBindingUIKit.a</string>
+			<key>path</key>
+			<string>/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs/libCIMLuaBindingUIKit.a</string>
+			<key>sourceTree</key>
+			<string>&lt;absolute&gt;</string>
+		</dict>
 		<key>9CF4337A19354D75001A1D66</key>
 		<dict>
 			<key>fileEncoding</key>
@@ -1871,13 +1878,6 @@
 		<dict>
 			<key>fileRef</key>
 			<string>9CF4337A19354D75001A1D66</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A4852897C2304217946280D8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D2FC9E02DC741019290FECE</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>

@@ -11,24 +11,24 @@
 			AAAAAAAAAAAAPAMAAAUAAAABAQAAVXNlcnMAAAAIAAAAAQEAAGpl
 			YW4tbHVjBwAAAAEBAABMaWJyYXJ5ABMAAAABAQAAQXBwbGljYXRp
 			b24gU3VwcG9ydAAUAAAAAQEAAGNvbS5jZWxlZGV2LkNvZGVGbG93
-			CAAAAAEBAABpcGhvbmVvcxcAAAABAQAAaU9TLTguMC1TREsubHVh
+			CAAAAAEBAABpcGhvbmVvcxcAAAABAQAAaU9TLTguMS1TREsubHVh
 			YmluZGluZ3MAHAAAAAEGAAAEAAAAFAAAACQAAAA0AAAAUAAAAGwA
 			AAB8AAAACAAAAAQDAAB8ZAIAAAAAAAgAAAAEAwAAw3tOAAAAAAAI
 			AAAABAMAADh8TgAAAAAACAAAAAQDAAA+fE4AAAAAAAgAAAAEAwAA
-			WmJUAAAAAAAIAAAABAMAAFxiVAAAAAAACAAAAAQDAADZtJsAAAAA
+			WmJUAAAAAAAIAAAABAMAAFxiVAAAAAAACAAAAAQDAACevcgAAAAA
 			ABwAAAABBgAAwAAAANAAAADgAAAA8AAAAAABAAAQAQAAIAEAAAgA
-			AAAABAAAQbn2va8AAAAYAAAAAQIAAAIAAAAAAAAADwAAAAAAAAAA
+			AAAABAAAQboegwcAAAAYAAAAAQIAAAIAAAAAAAAADwAAAAAAAAAA
 			AAAAAAAAAAgAAAAEAwAABQAAAAAAAAAEAAAAAwMAAPcBAAAMAAAA
 			AQEAAE1hY2ludG9zaCBIRAgAAAAEAwAAAAAGzgMBAAAIAAAAAAQA
 			AEG4Iv/AAAAAJAAAAAEBAAAxQkIzNEI4QS03RjU5LTNDMjktOUJB
 			OS0yMTNBRTg0OTM4NkUYAAAAAQIAAIEAAAABAAgA7xcAAAEACAAA
 			AAAAAAAAAAEAAAABAQAALwAAAAAAAAABBQAABAAAAAMDAAAAAwAA
-			8gAAAAECAABmNDM4Yzc0NTQxNDk4MzY1NmZiOWRhNDc5YmViMjQ5
-			MjdhMDcyOWJhOzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAwMDAwMDAw
+			8gAAAAECAAA3ZGNlODAzNjdiZGY0OGRlZWU3YWQwOTE5NDNmMGM2
+			ZTY4ODBlOGE0OzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAwMDAwMDAw
 			MDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3JpdGU7
-			MDAwMDAwMDE7MDEwMDAwMDg7MDAwMDAwMDAwMDliYjRkOTsvdXNl
+			MDAwMDAwMDE7MDEwMDAwMDg7MDAwMDAwMDAwMGM4YmQ5ZTsvdXNl
 			cnMvamVhbi1sdWMvbGlicmFyeS9hcHBsaWNhdGlvbiBzdXBwb3J0
-			L2NvbS5jZWxlZGV2LmNvZGVmbG93L2lwaG9uZW9zL2lvcy04LjAt
+			L2NvbS5jZWxlZGV2LmNvZGVmbG93L2lwaG9uZW9zL2lvcy04LjEt
 			c2RrLmx1YWJpbmRpbmdzAAAAzAAAAP7///8BAAAAAAAAABAAAAAE
 			EAAAnAAAAAAAAAAFEAAAMAEAAAAAAAAQEAAAZAEAAAAAAABAEAAA
 			VAEAAAAAAAACIAAAIAIAAAAAAAAQIAAAoAEAAAAAAAARIAAA1AEA
@@ -39,11 +39,11 @@
 			<key>LibDirPath</key>
 			<string>iphoneos</string>
 			<key>LibId</key>
-			<string>apple_sdk_iphoneos8.0</string>
+			<string>apple_sdk_iphoneos8.1</string>
 			<key>LibName</key>
 			<string>iOS</string>
 			<key>LibUrl</key>
-			<string>file:///Users/jean-luc/Library/Application%20Support/com.celedev.CodeFlow/iphoneos/iOS-8.0-SDK.luabindings/</string>
+			<string>file:///Users/jean-luc/Library/Application%20Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/</string>
 		</dict>
 	</array>
 	<key>Program Display Info</key>
@@ -62,7 +62,7 @@
 		<key>LuaAppWindow edited source path</key>
 		<string>GameViewController</string>
 		<key>LuaAppWindow frame</key>
-		<string>955 590 1430 771 0 0 2560 1418 </string>
+		<string>997 567 1430 771 0 0 2560 1418 </string>
 	</dict>
 	<key>Program Format Version</key>
 	<string>0.9</string>
@@ -108,9 +108,9 @@
 				<key>SrcEditor Selected Location</key>
 				<integer>18050</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1116</integer>
+				<integer>1252</integer>
 				<key>SrcEditor Visible Location</key>
-				<integer>12723</integer>
+				<integer>18258</integer>
 			</dict>
 		</dict>
 		<key>WoodCubeA</key>
