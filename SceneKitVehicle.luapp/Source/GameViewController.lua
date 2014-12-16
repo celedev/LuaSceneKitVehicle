@@ -2,8 +2,6 @@ local ScnTypes = require 'SceneKit.SceneKitTypes'
 local ScnLight = require 'SceneKit.SCNLight'
 local ScnMaterial = require 'SceneKit.SCNMaterialProperty'
 
-local Cg = require 'CoreGraphics.CGGeometry'
-
 local GameViewController = class.extendClass(objc.AAPLGameViewController --[[@inherits UIViewController, @protocols SCNSceneRendererDelegate]])
 
 local SCNScene = objc.SCNScene
@@ -15,8 +13,8 @@ local SCNMaterial = objc.SCNMaterial
 local SCNShape = objc.SCNShape
 local SCNPhysicsVehicle = objc.SCNPhysicsVehicle
 
-local SCNVector3Make = ScnTypes.SCNVector3Make
-local SCNVector4Make = ScnTypes.SCNVector4Make
+local SCNVector3 = struct.SCNVector3
+local SCNVector4 = struct.SCNVector4
 local SCNVector3Zero = ScnTypes.SCNVector3Zero
 
 local UIColor = objc.UIColor
@@ -49,37 +47,37 @@ function GameViewController:setupEnvironment (scene)
     wall.castsShadow = false
     wall.geometry.firstMaterial.locksAmbientWithDiffuse = true
         
-    wall.position = SCNVector3Make(0, 50, -92)
+    wall.position = SCNVector3(0, 50, -92)
     wall.physicsBody = SCNPhysicsBody:staticBody()
     scene.rootNode:addChildNode(wall)
     
     wall = wall:clone()
     getResource("wall", 'public.image', wall.geometry.firstMaterial.diffuse, 'contents')
-    wall.position = SCNVector3Make(-202, 50, 0)
-    wall.rotation = SCNVector4Make(0, 1, 0, M_PI/2)
+    wall.position = SCNVector3(-202, 50, 0)
+    wall.rotation = SCNVector4(0, 1, 0, M_PI/2)
     wall.physicsBody = SCNPhysicsBody:staticBody()
     scene.rootNode:addChildNode(wall)
         
     wall = wall:clone()
     getResource("wall", 'public.image', wall.geometry.firstMaterial.diffuse, 'contents')
-    wall.position = SCNVector3Make(202, 50, 0)
-    wall.rotation = SCNVector4Make(0, 1, 0, -M_PI/2)
+    wall.position = SCNVector3(202, 50, 0)
+    wall.rotation = SCNVector4(0, 1, 0, -M_PI/2)
     wall.physicsBody = SCNPhysicsBody:staticBody()
     scene.rootNode:addChildNode(wall)
     
     local backWall = SCNNode:nodeWithGeometry(objc.SCNPlane:planeWithWidth_height(400, 100))
     backWall.geometry.firstMaterial = wall.geometry.firstMaterial
     getResource("wall", 'public.image', wall.geometry.firstMaterial.diffuse, 'contents')
-    backWall.position = SCNVector3Make(0, 50, 200)
-    backWall.rotation = SCNVector4Make(0, 1, 0, M_PI)
+    backWall.position = SCNVector3(0, 50, 200)
+    backWall.rotation = SCNVector4(0, 1, 0, M_PI)
     backWall.castsShadow = false
     backWall.physicsBody = SCNPhysicsBody:staticBody()
     scene.rootNode:addChildNode(backWall)
     
     -- add ceil
     local ceilNode = SCNNode:nodeWithGeometry(objc.SCNPlane:planeWithWidth_height(400, 400))
-    ceilNode.position = SCNVector3Make(0, 100, 0)
-    ceilNode.rotation = SCNVector4Make(1, 0, 0, M_PI/2)
+    ceilNode.position = SCNVector3(0, 100, 0)
+    ceilNode.rotation = SCNVector4(1, 0, 0, M_PI/2)
     ceilNode.geometry.firstMaterial.doubleSided = false
     ceilNode.castsShadow = false
     ceilNode.geometry.firstMaterial.locksAmbientWithDiffuse = true
@@ -106,25 +104,25 @@ end
 
 function GameViewController:setupSceneElements(scene)
     -- add a train
-    self:addTrainToScene_atPosition(scene, SCNVector3Make(-5, 20, -40))
+    self:addTrainToScene_atPosition(scene, SCNVector3(-5, 20, -40))
     
     -- add wooden blocks
-    self:addWoodenBlockToScene_withImageNamed_atPosition(scene, "WoodCubeA", SCNVector3Make(-10, 15, 10))
-    self:addWoodenBlockToScene_withImageNamed_atPosition(scene, "WoodCubeB", SCNVector3Make( -9, 10, 10))
-    self:addWoodenBlockToScene_withImageNamed_atPosition(scene, "WoodCubeC", SCNVector3Make(20, 15, -11))
-    self:addWoodenBlockToScene_withImageNamed_atPosition(scene, "WoodCubeA", SCNVector3Make(25, 5, -20))
+    self:addWoodenBlockToScene_withImageNamed_atPosition(scene, "WoodCubeA", SCNVector3(-10, 15, 10))
+    self:addWoodenBlockToScene_withImageNamed_atPosition(scene, "WoodCubeB", SCNVector3( -9, 10, 10))
+    self:addWoodenBlockToScene_withImageNamed_atPosition(scene, "WoodCubeC", SCNVector3(20, 15, -11))
+    self:addWoodenBlockToScene_withImageNamed_atPosition(scene, "WoodCubeA", SCNVector3(25, 5, -20))
     
     --add more block
     for i = 1, 4 do
-        self:addWoodenBlockToScene_withImageNamed_atPosition(scene, "WoodCubeA", SCNVector3Make(rand(60) - 30, 20, rand(40) - 20))
-        self:addWoodenBlockToScene_withImageNamed_atPosition(scene, "WoodCubeB", SCNVector3Make(rand(60) - 30, 20, rand(40) - 20))
-        self:addWoodenBlockToScene_withImageNamed_atPosition(scene, "WoodCubeC", SCNVector3Make(rand(60) - 30, 20, rand(40) - 20))
+        self:addWoodenBlockToScene_withImageNamed_atPosition(scene, "WoodCubeA", SCNVector3(rand(60) - 30, 20, rand(40) - 20))
+        self:addWoodenBlockToScene_withImageNamed_atPosition(scene, "WoodCubeB", SCNVector3(rand(60) - 30, 20, rand(40) - 20))
+        self:addWoodenBlockToScene_withImageNamed_atPosition(scene, "WoodCubeC", SCNVector3(rand(60) - 30, 20, rand(40) - 20))
     end
     
     -- add cartoon book
     local block = SCNNode:node()
-    block.position = SCNVector3Make(20, 10, -16)
-    block.rotation = SCNVector4Make(0, 1, 0, -M_PI/4)
+    block.position = SCNVector3(20, 10, -16)
+    block.rotation = SCNVector4(0, 1, 0, -M_PI/4)
     block.geometry = SCNBox:boxWithWidth_height_length_chamferRadius(22, 0.5, 34, 0)
     local frontMat = SCNMaterial:material()
     frontMat.locksAmbientWithDiffuse = true
@@ -140,9 +138,9 @@ function GameViewController:setupSceneElements(scene)
     
     -- add carpet
     local rug = SCNNode:node()
-    rug.position = SCNVector3Make(0, 0.01, 0)
-    rug.rotation = SCNVector4Make(1, 0, 0, M_PI/2)
-    local path = objc.UIBezierPath:bezierPathWithRoundedRect_cornerRadius(Cg.CGRectMake(-50, -30, 100, 50), 2.5)
+    rug.position = SCNVector3(0, 0.01, 0)
+    rug.rotation = SCNVector4(1, 0, 0, M_PI/2)
+    local path = objc.UIBezierPath:bezierPathWithRoundedRect_cornerRadius(struct.CGRect(-50, -30, 100, 50), 2.5)
     path.flatness = 0.1
     rug.geometry = SCNShape:shapeWithPath_extrusionDepth(path, 0.05)
     rug.geometry.firstMaterial.locksAmbientWithDiffuse = true
@@ -151,7 +149,7 @@ function GameViewController:setupSceneElements(scene)
     
     -- add ball
     local ball = SCNNode:node()
-    ball.position = SCNVector3Make(-5, 5, -18)
+    ball.position = SCNVector3(-5, 5, -18)
     ball.geometry = objc.SCNSphere:sphereWithRadius(5)
     ball.geometry.firstMaterial.locksAmbientWithDiffuse = true
     ball.geometry.firstMaterial.diffuse.contents = "ball.jpg"
@@ -168,8 +166,8 @@ function GameViewController:setupVehicle(scene)
     local chassisNode = carScene.rootNode:childNodeWithName_recursively("rccarBody", false)
     
     -- setup the chassis
-    chassisNode.position = SCNVector3Make(0, 10, 30)
-    chassisNode.rotation = SCNVector4Make(0, 1, 0, M_PI)
+    chassisNode.position = SCNVector3(0, 10, 30)
+    chassisNode.rotation = SCNVector4(0, 1, 0, M_PI)
     
     local chassisBody = SCNPhysicsBody:dynamicBody()
     chassisBody.allowsResting = false
@@ -247,8 +245,8 @@ function GameViewController:setupScene()
         lightNode.light.castsShadow = true
     end
     lightNode.light.color = UIColor:colorWithWhite_alpha(0.8, 1.0)
-    lightNode.position = SCNVector3Make(0, 80, 30)
-    lightNode.rotation = SCNVector4Make(1,0,0,-M_PI/2.8)
+    lightNode.position = SCNVector3(0, 80, 30)
+    lightNode.rotation = SCNVector4(1,0,0,-M_PI/2.8)
     lightNode.light.spotInnerAngle = 0
     lightNode.light.spotOuterAngle = 50
     lightNode.light.shadowColor = UIColor.blackColor
@@ -263,8 +261,8 @@ function GameViewController:setupScene()
     local cameraNode = SCNNode:node()
     cameraNode.camera = objc.SCNCamera:camera()
     cameraNode.camera.zFar = 500
-    cameraNode.position = SCNVector3Make(0, 60, 50)
-    cameraNode.rotation = SCNVector4Make(1, 0, 0, -M_PI/5)
+    cameraNode.position = SCNVector3(0, 60, 50)
+    cameraNode.rotation = SCNVector4(1, 0, 0, -M_PI/5)
     scene.rootNode:addChildNode(cameraNode)
     self.cameraNode = cameraNode
     
@@ -273,8 +271,8 @@ function GameViewController:setupScene()
     frontCameraNode.camera = objc.SCNCamera:camera()
     frontCameraNode.camera.zFar = 500
     frontCameraNode.camera.xFov = 75
-    frontCameraNode.position = SCNVector3Make(0, 3.5, 2.5)
-    frontCameraNode.rotation = SCNVector4Make(0, 1, 0, M_PI)
+    frontCameraNode.position = SCNVector3(0, 3.5, 2.5)
+    frontCameraNode.rotation = SCNVector4(0, 1, 0, M_PI)
     self.vehicleNode:addChildNode(frontCameraNode)
     self.frontCameraNode = frontCameraNode
     
@@ -283,8 +281,8 @@ function GameViewController:setupScene()
     backCameraNode.camera = objc.SCNCamera:camera()
     backCameraNode.camera.zFar = 500
     backCameraNode.camera.xFov = 75
-    backCameraNode.position = SCNVector3Make(0, 15, -20)
-    backCameraNode.rotation = SCNVector4Make(0, 1, 0.18, M_PI)
+    backCameraNode.position = SCNVector3(0, 15, -20)
+    backCameraNode.rotation = SCNVector4(0, 1, 0.18, M_PI)
     self.vehicleNode:addChildNode(backCameraNode)
     self.backCameraNode = backCameraNode
     
@@ -389,8 +387,8 @@ function GameViewController:renderer_didSimulatePhysicsAtTime(renderer, time)
                                      z = cameraTargetPosition.z + cameraDamping * (cameraPosition.z - cameraTargetPosition.z)}
         
         -- move the spollight on top of the car
-        self.spotLightNode.position = SCNVector3Make(carPosition.x, 40., carPosition.z + 30)
-        self.spotLightNode.rotation = SCNVector4Make(1,0,0,-M_PI/3.4)
+        self.spotLightNode.position = SCNVector3(carPosition.x, 40., carPosition.z + 30)
+        self.spotLightNode.rotation = SCNVector4(1,0,0,-M_PI/3.4)
         self.spotLightNode.light.spotInnerAngle = 0
         self.spotLightNode.light.spotOuterAngle = 50
         
@@ -399,16 +397,16 @@ function GameViewController:renderer_didSimulatePhysicsAtTime(renderer, time)
             
         if scnView.pointOfView == self.backCameraNode then
             local cameraPosition = self.backCameraNode.position
-            local cameraTargetPosition = SCNVector3Make(0, 25, -20 - vehicle.speedInKilometersPerHour / 10)
+            local cameraTargetPosition = SCNVector3(0, 25, -20 - vehicle.speedInKilometersPerHour / 10)
             backCameraNode.position = { x = cameraTargetPosition.x + cameraDamping * (cameraPosition.x - cameraTargetPosition.x),
                                         y = cameraTargetPosition.y + cameraDamping * (cameraPosition.y - cameraTargetPosition.y),
                                         z = cameraTargetPosition.z + cameraDamping * (cameraPosition.z - cameraTargetPosition.z)}
        end
             
         -- move the spotlight in front of the camera
-        local frontPosition = scnView.pointOfView.presentationNode:convertPosition_toNode(SCNVector3Make(0, 0, -30), nil)
-        self.spotLightNode.position = SCNVector3Make(frontPosition.x, 70., frontPosition.z)
-        self.spotLightNode.rotation = SCNVector4Make(1,0,0,-M_PI/2)
+        local frontPosition = scnView.pointOfView.presentationNode:convertPosition_toNode(SCNVector3(0, 0, -30), nil)
+        self.spotLightNode.position = SCNVector3(frontPosition.x, 70., frontPosition.z)
+        self.spotLightNode.rotation = SCNVector4(1,0,0,-M_PI/2)
         self.spotLightNode.light.spotInnerAngle = 0
         self.spotLightNode.light.spotOuterAngle = 60
     end
@@ -431,8 +429,8 @@ function GameViewController:reorientCarIfNeeded()
             self.checks = (self.checks or 0) + 1
             if self.checks == 3 then
                 -- try to upturn the car with a random impulse
-                local forcePos = SCNVector3Make(rand(10)-5, 0, rand(10)-5)
-                self.vehicleNode.physicsBody:applyForce_atPosition_impulse(SCNVector3Make(0,400,0), forcePos, true)
+                local forcePos = SCNVector3(rand(10)-5, 0, rand(10)-5)
+                self.vehicleNode.physicsBody:applyForce_atPosition_impulse(SCNVector3(0,400,0), forcePos, true)
                 
                 self.checks = 0
             end
