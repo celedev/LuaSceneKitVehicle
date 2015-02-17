@@ -13,8 +13,6 @@
 	</array>
 	<key>Program Display Info</key>
 	<dict>
-		<key>LuaAppDocument remote Lua service</key>
-		<string>SceneKitVehicle - SceneHandler (Celedev's iPad)</string>
 		<key>LuaAppDocument-associatedXodeProject</key>
 		<dict>
 			<key>platform</key>
@@ -27,7 +25,7 @@
 		<key>LuaAppWindow edited source path</key>
 		<string>GameViewController</string>
 		<key>LuaAppWindow frame</key>
-		<string>1018 520 1430 771 0 0 2560 1417 </string>
+		<string>132 525 1430 771 0 0 2560 1417 </string>
 	</dict>
 	<key>Program Format Version</key>
 	<string>0.9</string>
@@ -73,11 +71,11 @@
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>3857</integer>
+				<integer>299</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1244</integer>
+				<integer>1580</integer>
 				<key>SrcEditor Visible Location</key>
-				<integer>18040</integer>
+				<integer>0</integer>
 			</dict>
 		</dict>
 		<key>WoodCubeA</key>

@@ -1138,15 +1138,17 @@
 				<key>GCC_PREFIX_HEADER</key>
 				<string>SceneKitVehicle/SceneKitVehicle-Prefix.pch</string>
 				<key>HEADER_SEARCH_PATHS</key>
-				<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/include"</string>
+				<array>
+					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos/include</string>
+				</array>
 				<key>INFOPLIST_FILE</key>
 				<string>SceneKitVehicle/SceneKitVehicle-Info.plist</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks</string>
 				<key>LIBRARY_SEARCH_PATHS</key>
 				<array>
-					<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos"</string>
-					<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs"</string>
+					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos</string>
+					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs</string>
 				</array>
 				<key>OTHER_LDFLAGS</key>
 				<string>-ObjC</string>
@@ -1183,15 +1185,17 @@
 				<key>GCC_PREFIX_HEADER</key>
 				<string>SceneKitVehicle/SceneKitVehicle-Prefix.pch</string>
 				<key>HEADER_SEARCH_PATHS</key>
-				<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/include"</string>
+				<array>
+					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos/include</string>
+				</array>
 				<key>INFOPLIST_FILE</key>
 				<string>SceneKitVehicle/SceneKitVehicle-Info.plist</string>
 				<key>LD_RUNPATH_SEARCH_PATHS</key>
 				<string>$(inherited) @executable_path/Frameworks</string>
 				<key>LIBRARY_SEARCH_PATHS</key>
 				<array>
-					<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos"</string>
-					<string>"$(USER_LIBRARY_DIR)/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs"</string>
+					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos</string>
+					<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos/iOS-8.1-SDK.luabindings/BindingLibs</string>
 				</array>
 				<key>OTHER_LDFLAGS</key>
 				<string>-ObjC</string>
