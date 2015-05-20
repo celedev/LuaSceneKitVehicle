@@ -6,26 +6,150 @@
 	<array>
 		<dict>
 			<key>LibId</key>
-			<string>apple_sdk_iphoneos8.1</string>
+			<string>apple_sdk_iphoneos8.3</string>
 			<key>LibName</key>
 			<string>iOS</string>
+		</dict>
+		<dict>
+			<key>BindingsLibSourceGroupType</key>
+			<string>SelfGeneratedBindingsLib</string>
+			<key>CustomBindingsLibBindingsSourcePath</key>
+			<string>/Volumes/Brume/Celedev CodeFlow/CodeFlow Sample Applications/SceneKitVehicle/SceneKitVehicle.xcodeproj</string>
+			<key>CustomBindingsLibHeadersParsingOptions</key>
+			<array>
+				<string>-include</string>
+				<string>/Volumes/Brume/Celedev CodeFlow/CodeFlow Sample Applications/SceneKitVehicle/SceneKitVehicle/SceneKitVehicle-Prefix.pch</string>
+				<string>-fobjc-arc</string>
+			</array>
+			<key>CustomBindingsLibHeadersSearchPaths</key>
+			<array>
+				<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos/include</string>
+				<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/headers</string>
+			</array>
+			<key>CustomBindingsLibLastGenerationDate</key>
+			<date>2015-05-20T16:12:16Z</date>
+			<key>CustomBindingsLibSourceFilesTree</key>
+			<data>
+			YnBsaXN0MDDUAQIDBAUGqKlYJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoK8QLgcIERIXHB0kKSowMTc+P0BESU5P
+			U1RgYWJjZGVma2xwcX1+f4SFiYqWl5ibn6RVJG51bGzUCQoLDA0O
+			DxBWb2JqZWN0VG5hbWVaYXR0cmlidXRlc1YkY2xhc3OAA4ACgC2A
+			LFDSEwwUFlpOUy5vYmplY3RzoRWABIAq1AkKCwwYGRoQgAaABYAr
+			gCxfEA9TY2VuZUtpdFZlaGljbGXSEwweFqQfICEigAeAEYAcgCOA
+			KtQJCgsMJSYnKIAJgAiADIAQXxARQUFQTEFwcERlbGVnYXRlLmjT
+			KwwsLS4vV05TLmJhc2VbTlMucmVsYXRpdmWAAIALgApfEHtmaWxl
+			Oi8vL1ZvbHVtZXMvQnJ1bWUvQ2VsZWRldiUyMENvZGVGbG93L0Nv
+			ZGVGbG93JTIwU2FtcGxlJTIwQXBwbGljYXRpb25zL1NjZW5lS2l0
+			VmVoaWNsZS9TY2VuZUtpdFZlaGljbGUvQUFQTEFwcERlbGVnYXRl
+			LmjSMjM0NVokY2xhc3NuYW1lWCRjbGFzc2VzVU5TVVJMojQ2WE5T
+			T2JqZWN00zgTDDk7PVdOUy5rZXlzoTqADaE8gA6AD1hzZWxlY3Rl
+			ZAjSMjNBQl8QE05TTXV0YWJsZURpY3Rpb25hcnmjQUM2XE5TRGlj
+			dGlvbmFyedIyM0VGXENERkxOYW1lZFVybKNHSDZcQ0RGTE5hbWVk
+			VXJsXUNERkxOYW1lZEl0ZW3UCQoLDEpLTCiAE4ASgBWAEF8QGEFB
+			UExHYW1lVmlld0NvbnRyb2xsZXIuaNMrDCwtLlKAAIALgBRfEIJm
+			aWxlOi8vL1ZvbHVtZXMvQnJ1bWUvQ2VsZWRldiUyMENvZGVGbG93
+			L0NvZGVGbG93JTIwU2FtcGxlJTIwQXBwbGljYXRpb25zL1NjZW5l
+			S2l0VmVoaWNsZS9TY2VuZUtpdFZlaGljbGUvQUFQTEdhbWVWaWV3
+			Q29udHJvbGxlci5o0zgTDFVaPaRWVzpZgBaAF4ANgBikW1xcXoAZ
+			gBqAGoAbgA9fEBJnZW5lcmF0aW9uRmlsZURhdGVfEBRnZW5lcmF0
+			aW9uRGlkU3VjY2VlZF8QF2dlbmVyYXRpb25MdWFNb2R1a2VQYXRo
+			I0G7DOnaAAAACV8QFkFBUExHYW1lVmlld0NvbnRyb2xsZXLUCQoL
+			DGdoaSiAHoAdgCCAEF5BQVBMR2FtZVZpZXcuaNMrDCwtLm+AAIAL
+			gB9fEHhmaWxlOi8vL1ZvbHVtZXMvQnJ1bWUvQ2VsZWRldiUyMENv
+			ZGVGbG93L0NvZGVGbG93JTIwU2FtcGxlJTIwQXBwbGljYXRpb25z
+			L1NjZW5lS2l0VmVoaWNsZS9TY2VuZUtpdFZlaGljbGUvQUFQTEdh
+			bWVWaWV3LmjTOBMMcnc9pFZXOlmAFoAXgA2AGKR4XFx7gCGAGoAa
+			gCKADyNBuXbFggAAAFxBQVBMR2FtZVZpZXfUCQoLDICBgiiAJYAk
+			gCeAEF8QEkFBUExPdmVybGF5U2NlbmUuaNMrDCwtLoiAAIALgCZf
+			EHxmaWxlOi8vL1ZvbHVtZXMvQnJ1bWUvQ2VsZWRldiUyMENvZGVG
+			bG93L0NvZGVGbG93JTIwU2FtcGxlJTIwQXBwbGljYXRpb25zL1Nj
+			ZW5lS2l0VmVoaWNsZS9TY2VuZUtpdFZlaGljbGUvQUFQTE92ZXJs
+			YXlTY2VuZS5o0zgTDIuQPaRWVzpZgBaAF4ANgBikkVxclIAogBqA
+			GoApgA8jQbl2xYIAAABfEBBBQVBMT3ZlcmxheVNjZW5l0jIzmZpX
+			TlNBcnJheaKZNtM4EwycnT2goIAP0jIzoKFeQ0RGTE5hbWVkR3Jv
+			dXCjoqM2XkNERkxOYW1lZEdyb3VwXUNERkxOYW1lZEl0ZW3TOBMM
+			paY9oKCAD18QD05TS2V5ZWRBcmNoaXZlctGqq1Ryb290gAEACAAR
+			ABoAIwAtADIANwBoAG4AdwB+AIMAjgCVAJcAmQCbAJ0AngCjAK4A
+			sACyALQAvQC/AMEAwwDFANcA3ADhAOMA5QDnAOkA6wD0APYA+AD6
+			APwBEAEXAR8BKwEtAS8BMQGvAbQBvwHIAc4B0QHaAeEB6QHrAe0B
+			7wHxAfMB/AH9AgICGAIcAikCLgI7Aj8CTAJaAmMCZQJnAmkCawKG
+			Ao0CjwKRApMDGAMfAyQDJgMoAyoDLAMxAzMDNQM3AzkDOwNQA2cD
+			gQOKA4sDpAOtA68DsQOzA7UDxAPLA80DzwPRBEwEUwRYBFoEXARe
+			BGAEZQRnBGkEawRtBG8EeASFBI4EkASSBJQElgSrBLIEtAS2BLgF
+			NwU+BUMFRQVHBUkFSwVQBVIFVAVWBVgFWgVjBXYFewWDBYYFjQWO
+			BY8FkQWWBaUFqQW4BcYFzQXOBc8F0QXjBeYF6wAAAAAAAAIBAAAA
+			AAAAAKwAAAAAAAAAAAAAAAAAAAXt
+			</data>
+			<key>CustomBindingsLibTargetOSVersion</key>
+			<string>8.0</string>
+			<key>CustomBindingsLibXcodeTargetInfo</key>
+			<dict>
+				<key>target</key>
+				<string>SceneKitVehicle</string>
+				<key>targetSdk</key>
+				<string>iphoneos</string>
+				<key>targetType</key>
+				<string>com.apple.product-type.application</string>
+			</dict>
+			<key>LibBookmark</key>
+			<data>
+			Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+			AAAAAAAAAAAA3AMAAAQAAAADAwAAAAIAAAUAAAABAQAAVXNlcnMA
+			AAAIAAAAAQEAAGplYW4tbHVjBwAAAAEBAABMaWJyYXJ5AAYAAAAB
+			AQAAQ2FjaGVzAAAUAAAAAQEAAGNvbS5jZWxlZGV2LkNvZGVGbG93
+			CAAAAAEBAABQcm9ncmFtcyQAAAABAQAAOTREMDMwRjEtMzk0Qi00
+			RTI3LUEwMDctMDcyMjQ4ODg5MDkwDAAAAAEBAABFeHRlcm5hbExp
+			YnMbAAAAAQEAAFNjZW5lS2l0VmVoaWNsZS5sdWFiaW5kaW5ncwAk
+			AAAAAQYAABAAAAAgAAAAMAAAAEAAAABQAAAAbAAAAHwAAACoAAAA
+			vAAAAAgAAAAEAwAAfGQCAAAAAAAIAAAABAMAAMN7TgAAAAAACAAA
+			AAQDAAA4fE4AAAAAAAgAAAAEAwAAbnxOAAAAAAAIAAAABAMAAPFP
+			kAEAAAAACAAAAAQDAAD3d5ABAAAAAAgAAAAEAwAAMX2QAQAAAAAI
+			AAAABAMAADJ9kAEAAAAACAAAAAQDAAA6fZABAAAAACQAAAABBgAA
+			DAEAABwBAAAsAQAAPAEAAEwBAABcAQAAbAEAAHwBAACMAQAACAAA
+			AAAEAABBuwzpegAAABgAAAABAgAAAgAAAAAAAAAPAAAAAAAAAAAA
+			AAAAAAAACAAAAAQDAAAHAAAAAAAAAAQAAAADAwAA9wEAAAgAAAAB
+			CQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
+			AABGpwMBAAAIAAAAAAQAAEG4Iv/AAAAAJAAAAAEBAAAxQkIzNEI4
+			QS03RjU5LTNDMjktOUJBOS0yMTNBRTg0OTM4NkUYAAAAAQIAAIEA
+			AAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAAB
+			BQAAGwEAAAECAAAzYmM4NWJmNGFiZjcyNWQ4ZjE3OWZjYTEyZDk4
+			MTYzYTg4ZDcwMTBlOzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAwMDAw
+			MDAwMDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3Jp
+			dGU7MDAwMDAwMDE7MDEwMDAwMDg7MDAwMDAwMDAwMTkwN2QzYTsv
+			dXNlcnMvamVhbi1sdWMvbGlicmFyeS9jYWNoZXMvY29tLmNlbGVk
+			ZXYuY29kZWZsb3cvcHJvZ3JhbXMvOTRkMDMwZjEtMzk0Yi00ZTI3
+			LWEwMDctMDcyMjQ4ODg5MDkwL2V4dGVybmFsbGlicy9zY2VuZWtp
+			dHZlaGljbGUubHVhYmluZGluZ3MAANgAAAD+////AQAAAAAAAAAR
+			AAAABBAAAOAAAAAAAAAABRAAAJwBAAAAAAAAEBAAANgBAAAAAAAA
+			QBAAAMgBAAAAAAAAAiAAAKQCAAAAAAAABSAAABQCAAAAAAAAECAA
+			ACQCAAAAAAAAESAAAFgCAAAAAAAAEiAAADgCAAAAAAAAEyAAAEgC
+			AAAAAAAAICAAAIQCAAAAAAAAMCAAALACAAAAAAAAAcAAAPgBAAAA
+			AAAAEcAAACAAAAAAAAAAEsAAAAgCAAAAAAAAENAAAAQAAAAAAAAA
+			gPAAALgCAAAAAAAA
+			</data>
+			<key>LibName</key>
+			<string>SceneKitVehicle</string>
+			<key>LibUrl</key>
+			<string>file:///Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/94D030F1-394B-4E27-A007-072248889090/ExternalLibs/SceneKitVehicle.luabindings</string>
 		</dict>
 	</array>
 	<key>Program Display Info</key>
 	<dict>
 		<key>LuaAppDocument-associatedXodeProject</key>
 		<dict>
-			<key>platform</key>
-			<string>iphoneos</string>
 			<key>project</key>
 			<string>SceneKitVehicle.xcodeproj</string>
 			<key>target</key>
 			<string>SceneKitVehicle</string>
+			<key>targetSdk</key>
+			<string>iphoneos</string>
+			<key>targetType</key>
+			<string>com.apple.product-type.application</string>
 		</dict>
 		<key>LuaAppWindow edited source path</key>
 		<string>GameViewController</string>
 		<key>LuaAppWindow frame</key>
-		<string>132 525 1430 771 0 0 2560 1417 </string>
+		<string>132 656 1212 640 0 0 2560 1417 </string>
 	</dict>
 	<key>Program Format Version</key>
 	<string>0.9</string>
@@ -65,15 +189,15 @@
 			<key>Source File Name</key>
 			<string>GameViewController</string>
 			<key>SourceItemChangeTime</key>
-			<real>440457909.10421699</real>
+			<real>453831150.04250902</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>299</integer>
+				<integer>293</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1580</integer>
+				<integer>1132</integer>
 				<key>SrcEditor Visible Location</key>
 				<integer>0</integer>
 			</dict>

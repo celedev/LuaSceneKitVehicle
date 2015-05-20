@@ -15,4 +15,8 @@
 
 @interface AAPLGameViewController : UIViewController <SCNSceneRendererDelegate>
 
+- (BOOL)isHighEndDevice;
+
+- (void)addTrainToScene:(SCNScene *)scene atPosition:(SCNVector3)pos;
+
 @end

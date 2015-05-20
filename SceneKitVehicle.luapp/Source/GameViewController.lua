@@ -2,7 +2,7 @@ local ScnTypes = require 'SceneKit.SceneKitTypes'
 local ScnLight = require 'SceneKit.SCNLight'
 local ScnMaterial = require 'SceneKit.SCNMaterialProperty'
 
-local GameViewController = class.extendClass(objc.AAPLGameViewController --[[@inherits UIViewController, @protocols SCNSceneRendererDelegate]])
+local GameViewController = class.extendClass(objc.AAPLGameViewController)
 
 local SCNScene = objc.SCNScene
 local SCNNode = objc.SCNNode

@@ -6,7 +6,7 @@ This is also a good example of a class-extension-based application where methods
 
 ## Configuration required
 
-A Mac with Celedev CodeFlow version 0.9.11 or later.
+A Mac with Celedev CodeFlow version 0.9.15 or later.
 
 Works on iPhone or iPad, running iOS 8 or later. The Xcode project requires Xcode 6 or later.
 

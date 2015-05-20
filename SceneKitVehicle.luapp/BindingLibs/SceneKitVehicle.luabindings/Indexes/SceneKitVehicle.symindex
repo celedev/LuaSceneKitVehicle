@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>classes</key>
+	<dict>
+		<key>AAPLGameView</key>
+		<dict>
+			<key>defined</key>
+			<string>AAPLGameView</string>
+			<key>name</key>
+			<string>AAPLGameView</string>
+			<key>superclass</key>
+			<string>SCNView</string>
+		</dict>
+		<key>AAPLGameViewController</key>
+		<dict>
+			<key>defined</key>
+			<string>AAPLGameViewController</string>
+			<key>name</key>
+			<string>AAPLGameViewController</string>
+			<key>protocols</key>
+			<array>
+				<string>SCNSceneRendererDelegate</string>
+			</array>
+			<key>superclass</key>
+			<string>UIViewController</string>
+		</dict>
+		<key>AAPLOverlayScene</key>
+		<dict>
+			<key>defined</key>
+			<string>AAPLOverlayScene</string>
+			<key>name</key>
+			<string>AAPLOverlayScene</string>
+			<key>superclass</key>
+			<string>SKScene</string>
+		</dict>
+	</dict>
+	<key>id</key>
+	<string>SceneKitVehicle</string>
+	<key>indexFormat</key>
+	<string>0.2</string>
+	<key>protocols</key>
+	<dict/>
+	<key>structs</key>
+	<dict/>
+	<key>version</key>
+	<string>2</string>
+</dict>
+</plist>
