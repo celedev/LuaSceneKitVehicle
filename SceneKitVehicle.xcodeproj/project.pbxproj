@@ -12,10 +12,9 @@
 		116C81F6192EA7980001FC16 /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116C81F5192EA7980001FC16 /* CoreMotion.framework */; };
 		116C81F8192EA8E80001FC16 /* SceneKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116C81F7192EA8E80001FC16 /* SceneKit.framework */; };
 		116C81FA192EA8EF0001FC16 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 116C81F9192EA8EF0001FC16 /* SpriteKit.framework */; };
-		29098C9269CF4135706FB5F8 /* libCIMLuaBindingSceneKitVehicle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = D484B818E901EF96368078BA /* libCIMLuaBindingSceneKitVehicle.a */; };
-		3397E7FBDEAD22712A6CAA0B /* libCIMLuaBindingCoreGraphics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C6DC5374CD42EC8887D67AAC /* libCIMLuaBindingCoreGraphics.a */; };
-		3A2CCE8B2DADAAA8C7DE9B8A /* libCIMLuaBindingSpriteKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 45001F37031F377B69790978 /* libCIMLuaBindingSpriteKit.a */; };
+		2285620324B8A0147306BB0B /* libCIMLuaBindingSceneKitVehicle.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 6E2585CFB2258BB5EC15A944 /* libCIMLuaBindingSceneKitVehicle.a */; };
 		53ACCFF1E3FB42DDAB5FD890 /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 94DD4B3535C64F03866AC1D4 /* MobileCoreServices.framework */; };
+		84D1F33A3DF8BFF22DB73893 /* libCIMLuaBindingCoreGraphics.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E013A49524D56013E032CAFF /* libCIMLuaBindingCoreGraphics.a */; };
 		944CD34E18F1CF1600F4DCDA /* AAPLGameView.m in Sources */ = {isa = PBXBuildFile; fileRef = 944CD34D18F1CF1600F4DCDA /* AAPLGameView.m */; };
 		945AD79E18F1FB0800351CB5 /* reactor.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 945AD79D18F1FB0800351CB5 /* reactor.scnp */; };
 		945AD7A118F1FB2500351CB5 /* smoke.scnp in Resources */ = {isa = PBXBuildFile; fileRef = 945AD79F18F1FB2500351CB5 /* smoke.scnp */; };
@@ -54,13 +53,14 @@
 		94A4857F18F1FAB200775D5E /* WoodCubeC.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 94A4856118F1FAB200775D5E /* WoodCubeC.jpg */; };
 		9655E4E6192650D7006C3A3B /* AAPLOverlayScene.m in Sources */ = {isa = PBXBuildFile; fileRef = 9655E4E5192650D7006C3A3B /* AAPLOverlayScene.m */; };
 		9655E4E819265809006C3A3B /* click.caf in Resources */ = {isa = PBXBuildFile; fileRef = 9655E4E719265697006C3A3B /* click.caf */; };
+		987A989344183982BA56763F /* libCIMLuaBindingFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 051DA4BB43DDBE399B9A2AB4 /* libCIMLuaBindingFoundation.a */; };
 		9C765F11193561FE00C1D23C /* rc_car_texture.png in Resources */ = {isa = PBXBuildFile; fileRef = 9C765F10193561FE00C1D23C /* rc_car_texture.png */; };
 		9CF4337B19354D75001A1D66 /* rc_car.dae in Resources */ = {isa = PBXBuildFile; fileRef = 9CF4337A19354D75001A1D66 /* rc_car.dae */; };
+		AD5D5A49C2F2011A0C14A4DB /* libCIMLuaBindingSceneKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 56408B354DDB753E291C556B /* libCIMLuaBindingSceneKit.a */; };
+		B38CD53BFEDC11DAB62695A6 /* libCIMLuaBindingUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 757CEBC3C475EEA818CEB9E5 /* libCIMLuaBindingUIKit.a */; };
 		BF40B7C534FB4B10BF2A2676 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 15A1C955D5C341F68FC0E12E /* CoreGraphics.framework */; };
-		CA1208B72CC88A8F8A89370F /* libCIMLuaBindingSceneKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 666923BEB237D222A9689A1D /* libCIMLuaBindingSceneKit.a */; };
-		CCA916A8B62DDF7E51771648 /* libCIMLuaBindingUIKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 895E3B061B2340EE650DEED5 /* libCIMLuaBindingUIKit.a */; };
-		DA4AAC6729FA0C10383D0BAC /* libCIMLuaBindingFoundation.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A58BD8B31E5A5625CD6D65E /* libCIMLuaBindingFoundation.a */; };
 		E4D9081B4AEE49C2BAD00562 /* libCIMLua.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C14DB9115C4A46758EC2BB07 /* libCIMLua.a */; };
+		EAC689F0E6E0CAF1E9AE7E18 /* libCIMLuaBindingSpriteKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = F6A155CC5FFBF623E9739CC7 /* libCIMLuaBindingSpriteKit.a */; };
 		ED3A25A5B567450D91D7E8C3 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 615B563BD17F4918934BADFB /* Foundation.framework */; };
 		FF1BBA342BA74129A0BBCD85 /* libCIMLuaDebugServerIOS.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 584038A27C7C4E46A68C9658 /* libCIMLuaDebugServerIOS.a */; };
 /* End PBXBuildFile section */
@@ -83,17 +83,18 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		051DA4BB43DDBE399B9A2AB4 /* libCIMLuaBindingFoundation.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingFoundation.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-9-SDK.luabindings/BindingLibs/libCIMLuaBindingFoundation.a"; sourceTree = "<absolute>"; };
 		116C81F1192EA73E0001FC16 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		116C81F3192EA78F0001FC16 /* GameController.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GameController.framework; path = System/Library/Frameworks/GameController.framework; sourceTree = SDKROOT; };
 		116C81F5192EA7980001FC16 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
 		116C81F7192EA8E80001FC16 /* SceneKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SceneKit.framework; path = System/Library/Frameworks/SceneKit.framework; sourceTree = SDKROOT; };
 		116C81F9192EA8EF0001FC16 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
 		15A1C955D5C341F68FC0E12E /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		45001F37031F377B69790978 /* libCIMLuaBindingSpriteKit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingSpriteKit.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs/libCIMLuaBindingSpriteKit.a"; sourceTree = "<absolute>"; };
+		56408B354DDB753E291C556B /* libCIMLuaBindingSceneKit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingSceneKit.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-9-SDK.luabindings/BindingLibs/libCIMLuaBindingSceneKit.a"; sourceTree = "<absolute>"; };
 		584038A27C7C4E46A68C9658 /* libCIMLuaDebugServerIOS.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaDebugServerIOS.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/libCIMLuaDebugServerIOS.a"; sourceTree = "<absolute>"; };
 		615B563BD17F4918934BADFB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		666923BEB237D222A9689A1D /* libCIMLuaBindingSceneKit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingSceneKit.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs/libCIMLuaBindingSceneKit.a"; sourceTree = "<absolute>"; };
-		895E3B061B2340EE650DEED5 /* libCIMLuaBindingUIKit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingUIKit.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs/libCIMLuaBindingUIKit.a"; sourceTree = "<absolute>"; };
+		6E2585CFB2258BB5EC15A944 /* libCIMLuaBindingSceneKitVehicle.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingSceneKitVehicle.a; path = "/Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/8D7E90C0-3617-4C84-A7C3-51EBD01A9924/ExternalLibs/SceneKitVehicle.luabindings/BindingLibs/libCIMLuaBindingSceneKitVehicle.a"; sourceTree = "<absolute>"; };
+		757CEBC3C475EEA818CEB9E5 /* libCIMLuaBindingUIKit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingUIKit.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-9-SDK.luabindings/BindingLibs/libCIMLuaBindingUIKit.a"; sourceTree = "<absolute>"; };
 		944CD34C18F1CF1600F4DCDA /* AAPLGameView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLGameView.h; sourceTree = "<group>"; };
 		944CD34D18F1CF1600F4DCDA /* AAPLGameView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLGameView.m; sourceTree = "<group>"; };
 		945AD79D18F1FB0800351CB5 /* reactor.scnp */ = {isa = PBXFileReference; lastKnownFileType = file.scp; path = reactor.scnp; sourceTree = "<group>"; };
@@ -141,12 +142,11 @@
 		9655E4E4192650D7006C3A3B /* AAPLOverlayScene.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AAPLOverlayScene.h; sourceTree = "<group>"; };
 		9655E4E5192650D7006C3A3B /* AAPLOverlayScene.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AAPLOverlayScene.m; sourceTree = "<group>"; };
 		9655E4E719265697006C3A3B /* click.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = click.caf; sourceTree = "<group>"; };
-		9A58BD8B31E5A5625CD6D65E /* libCIMLuaBindingFoundation.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingFoundation.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs/libCIMLuaBindingFoundation.a"; sourceTree = "<absolute>"; };
 		9C765F10193561FE00C1D23C /* rc_car_texture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rc_car_texture.png; sourceTree = "<group>"; };
 		9CF4337A19354D75001A1D66 /* rc_car.dae */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xml.dae; path = rc_car.dae; sourceTree = "<group>"; };
 		C14DB9115C4A46758EC2BB07 /* libCIMLua.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLua.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/libCIMLua.a"; sourceTree = "<absolute>"; };
-		C6DC5374CD42EC8887D67AAC /* libCIMLuaBindingCoreGraphics.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingCoreGraphics.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs/libCIMLuaBindingCoreGraphics.a"; sourceTree = "<absolute>"; };
-		D484B818E901EF96368078BA /* libCIMLuaBindingSceneKitVehicle.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingSceneKitVehicle.a; path = "/Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/94D030F1-394B-4E27-A007-072248889090/ExternalLibs/SceneKitVehicle.luabindings/BindingLibs/libCIMLuaBindingSceneKitVehicle.a"; sourceTree = "<absolute>"; };
+		E013A49524D56013E032CAFF /* libCIMLuaBindingCoreGraphics.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingCoreGraphics.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-9-SDK.luabindings/BindingLibs/libCIMLuaBindingCoreGraphics.a"; sourceTree = "<absolute>"; };
+		F6A155CC5FFBF623E9739CC7 /* libCIMLuaBindingSpriteKit.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libCIMLuaBindingSpriteKit.a; path = "/Users/jean-luc/Library/Application Support/com.celedev.CodeFlow/iphoneos/iOS-9-SDK.luabindings/BindingLibs/libCIMLuaBindingSpriteKit.a"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,12 +164,12 @@
 				BF40B7C534FB4B10BF2A2676 /* CoreGraphics.framework in Frameworks */,
 				E4D9081B4AEE49C2BAD00562 /* libCIMLua.a in Frameworks */,
 				FF1BBA342BA74129A0BBCD85 /* libCIMLuaDebugServerIOS.a in Frameworks */,
-				29098C9269CF4135706FB5F8 /* libCIMLuaBindingSceneKitVehicle.a in Frameworks */,
-				CA1208B72CC88A8F8A89370F /* libCIMLuaBindingSceneKit.a in Frameworks */,
-				3397E7FBDEAD22712A6CAA0B /* libCIMLuaBindingCoreGraphics.a in Frameworks */,
-				DA4AAC6729FA0C10383D0BAC /* libCIMLuaBindingFoundation.a in Frameworks */,
-				CCA916A8B62DDF7E51771648 /* libCIMLuaBindingUIKit.a in Frameworks */,
-				3A2CCE8B2DADAAA8C7DE9B8A /* libCIMLuaBindingSpriteKit.a in Frameworks */,
+				B38CD53BFEDC11DAB62695A6 /* libCIMLuaBindingUIKit.a in Frameworks */,
+				987A989344183982BA56763F /* libCIMLuaBindingFoundation.a in Frameworks */,
+				84D1F33A3DF8BFF22DB73893 /* libCIMLuaBindingCoreGraphics.a in Frameworks */,
+				AD5D5A49C2F2011A0C14A4DB /* libCIMLuaBindingSceneKit.a in Frameworks */,
+				EAC689F0E6E0CAF1E9AE7E18 /* libCIMLuaBindingSpriteKit.a in Frameworks */,
+				2285620324B8A0147306BB0B /* libCIMLuaBindingSceneKitVehicle.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -196,12 +196,12 @@
 				15A1C955D5C341F68FC0E12E /* CoreGraphics.framework */,
 				C14DB9115C4A46758EC2BB07 /* libCIMLua.a */,
 				584038A27C7C4E46A68C9658 /* libCIMLuaDebugServerIOS.a */,
-				D484B818E901EF96368078BA /* libCIMLuaBindingSceneKitVehicle.a */,
-				666923BEB237D222A9689A1D /* libCIMLuaBindingSceneKit.a */,
-				C6DC5374CD42EC8887D67AAC /* libCIMLuaBindingCoreGraphics.a */,
-				9A58BD8B31E5A5625CD6D65E /* libCIMLuaBindingFoundation.a */,
-				895E3B061B2340EE650DEED5 /* libCIMLuaBindingUIKit.a */,
-				45001F37031F377B69790978 /* libCIMLuaBindingSpriteKit.a */,
+				757CEBC3C475EEA818CEB9E5 /* libCIMLuaBindingUIKit.a */,
+				051DA4BB43DDBE399B9A2AB4 /* libCIMLuaBindingFoundation.a */,
+				E013A49524D56013E032CAFF /* libCIMLuaBindingCoreGraphics.a */,
+				56408B354DDB753E291C556B /* libCIMLuaBindingSceneKit.a */,
+				F6A155CC5FFBF623E9739CC7 /* libCIMLuaBindingSpriteKit.a */,
+				6E2585CFB2258BB5EC15A944 /* libCIMLuaBindingSceneKitVehicle.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -580,8 +580,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos",
-					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs",
-					"$(USER_LIBRARY_DIR)/Caches/com.celedev.CodeFlow/Programs/94D030F1-394B-4E27-A007-072248889090/ExternalLibs/SceneKitVehicle.luabindings/BindingLibs",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos/iOS-9-SDK.luabindings/BindingLibs",
+					"$(USER_LIBRARY_DIR)/Caches/com.celedev.CodeFlow/Programs/8D7E90C0-3617-4C84-A7C3-51EBD01A9924/ExternalLibs/SceneKitVehicle.luabindings/BindingLibs",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -609,8 +609,8 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				LIBRARY_SEARCH_PATHS = (
 					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos",
-					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos/iOS-8.3-SDK.luabindings/BindingLibs",
-					"$(USER_LIBRARY_DIR)/Caches/com.celedev.CodeFlow/Programs/94D030F1-394B-4E27-A007-072248889090/ExternalLibs/SceneKitVehicle.luabindings/BindingLibs",
+					"$(USER_LIBRARY_DIR)/Application\\ Support/com.celedev.CodeFlow/iphoneos/iOS-9-SDK.luabindings/BindingLibs",
+					"$(USER_LIBRARY_DIR)/Caches/com.celedev.CodeFlow/Programs/8D7E90C0-3617-4C84-A7C3-51EBD01A9924/ExternalLibs/SceneKitVehicle.luabindings/BindingLibs",
 				);
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";

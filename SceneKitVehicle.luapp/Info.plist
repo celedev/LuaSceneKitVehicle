@@ -6,7 +6,7 @@
 	<array>
 		<dict>
 			<key>LibId</key>
-			<string>apple_sdk_iphoneos8.3</string>
+			<string>apple_sdk_iphoneos9.0</string>
 			<key>LibName</key>
 			<string>iOS</string>
 		</dict>
@@ -14,7 +14,11 @@
 			<key>BindingsLibSourceGroupType</key>
 			<string>SelfGeneratedBindingsLib</string>
 			<key>CustomBindingsLibBindingsSourcePath</key>
-			<string>/Volumes/Brume/Celedev CodeFlow/CodeFlow Sample Applications/SceneKitVehicle/SceneKitVehicle.xcodeproj</string>
+			<string>SceneKitVehicle.xcodeproj</string>
+			<key>CustomBindingsLibCompilationOptions</key>
+			<array>
+				<string>-fembed-bitcode</string>
+			</array>
 			<key>CustomBindingsLibHeadersParsingOptions</key>
 			<array>
 				<string>-include</string>
@@ -27,7 +31,9 @@
 				<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/headers</string>
 			</array>
 			<key>CustomBindingsLibLastGenerationDate</key>
-			<date>2015-05-20T16:12:16Z</date>
+			<date>2015-09-16T10:12:24Z</date>
+			<key>CustomBindingsLibPlatformSdkName</key>
+			<string>iphoneos9.0</string>
 			<key>CustomBindingsLibSourceFilesTree</key>
 			<data>
 			YnBsaXN0MDDUAQIDBAUGqKlYJHZlcnNpb25YJG9iamVjdHNZJGFy
@@ -91,46 +97,6 @@
 				<key>targetType</key>
 				<string>com.apple.product-type.application</string>
 			</dict>
-			<key>LibBookmark</key>
-			<data>
-			Ym9va+wEAAAAAAQQMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
-			AAAAAAAAAAAA3AMAAAQAAAADAwAAAAIAAAUAAAABAQAAVXNlcnMA
-			AAAIAAAAAQEAAGplYW4tbHVjBwAAAAEBAABMaWJyYXJ5AAYAAAAB
-			AQAAQ2FjaGVzAAAUAAAAAQEAAGNvbS5jZWxlZGV2LkNvZGVGbG93
-			CAAAAAEBAABQcm9ncmFtcyQAAAABAQAAOTREMDMwRjEtMzk0Qi00
-			RTI3LUEwMDctMDcyMjQ4ODg5MDkwDAAAAAEBAABFeHRlcm5hbExp
-			YnMbAAAAAQEAAFNjZW5lS2l0VmVoaWNsZS5sdWFiaW5kaW5ncwAk
-			AAAAAQYAABAAAAAgAAAAMAAAAEAAAABQAAAAbAAAAHwAAACoAAAA
-			vAAAAAgAAAAEAwAAfGQCAAAAAAAIAAAABAMAAMN7TgAAAAAACAAA
-			AAQDAAA4fE4AAAAAAAgAAAAEAwAAbnxOAAAAAAAIAAAABAMAAPFP
-			kAEAAAAACAAAAAQDAAD3d5ABAAAAAAgAAAAEAwAAMX2QAQAAAAAI
-			AAAABAMAADJ9kAEAAAAACAAAAAQDAAA6fZABAAAAACQAAAABBgAA
-			DAEAABwBAAAsAQAAPAEAAEwBAABcAQAAbAEAAHwBAACMAQAACAAA
-			AAAEAABBuwzpegAAABgAAAABAgAAAgAAAAAAAAAPAAAAAAAAAAAA
-			AAAAAAAACAAAAAQDAAAHAAAAAAAAAAQAAAADAwAA9wEAAAgAAAAB
-			CQAAZmlsZTovLy8MAAAAAQEAAE1hY2ludG9zaCBIRAgAAAAEAwAA
-			AABGpwMBAAAIAAAAAAQAAEG4Iv/AAAAAJAAAAAEBAAAxQkIzNEI4
-			QS03RjU5LTNDMjktOUJBOS0yMTNBRTg0OTM4NkUYAAAAAQIAAIEA
-			AAABAAgA7xcAAAEACAAAAAAAAAAAAAEAAAABAQAALwAAAAAAAAAB
-			BQAAGwEAAAECAAAzYmM4NWJmNGFiZjcyNWQ4ZjE3OWZjYTEyZDk4
-			MTYzYTg4ZDcwMTBlOzAwMDAwMDAwOzAwMDAwMDAwOzAwMDAwMDAw
-			MDAwMDAwMjA7Y29tLmFwcGxlLmFwcC1zYW5kYm94LnJlYWQtd3Jp
-			dGU7MDAwMDAwMDE7MDEwMDAwMDg7MDAwMDAwMDAwMTkwN2QzYTsv
-			dXNlcnMvamVhbi1sdWMvbGlicmFyeS9jYWNoZXMvY29tLmNlbGVk
-			ZXYuY29kZWZsb3cvcHJvZ3JhbXMvOTRkMDMwZjEtMzk0Yi00ZTI3
-			LWEwMDctMDcyMjQ4ODg5MDkwL2V4dGVybmFsbGlicy9zY2VuZWtp
-			dHZlaGljbGUubHVhYmluZGluZ3MAANgAAAD+////AQAAAAAAAAAR
-			AAAABBAAAOAAAAAAAAAABRAAAJwBAAAAAAAAEBAAANgBAAAAAAAA
-			QBAAAMgBAAAAAAAAAiAAAKQCAAAAAAAABSAAABQCAAAAAAAAECAA
-			ACQCAAAAAAAAESAAAFgCAAAAAAAAEiAAADgCAAAAAAAAEyAAAEgC
-			AAAAAAAAICAAAIQCAAAAAAAAMCAAALACAAAAAAAAAcAAAPgBAAAA
-			AAAAEcAAACAAAAAAAAAAEsAAAAgCAAAAAAAAENAAAAQAAAAAAAAA
-			gPAAALgCAAAAAAAA
-			</data>
-			<key>LibName</key>
-			<string>SceneKitVehicle</string>
-			<key>LibUrl</key>
-			<string>file:///Users/jean-luc/Library/Caches/com.celedev.CodeFlow/Programs/94D030F1-394B-4E27-A007-072248889090/ExternalLibs/SceneKitVehicle.luabindings</string>
 		</dict>
 	</array>
 	<key>Program Display Info</key>
@@ -149,7 +115,7 @@
 		<key>LuaAppWindow edited source path</key>
 		<string>GameViewController</string>
 		<key>LuaAppWindow frame</key>
-		<string>132 656 1212 640 0 0 2560 1417 </string>
+		<string>1098 653 1212 640 0 0 2560 1417 </string>
 	</dict>
 	<key>Program Format Version</key>
 	<string>0.9</string>
@@ -184,10 +150,6 @@
 		<dict>
 			<key>Source File Auto Reload</key>
 			<true/>
-			<key>Source File Is Start Item</key>
-			<false/>
-			<key>Source File Name</key>
-			<string>GameViewController</string>
 			<key>SourceItemChangeTime</key>
 			<real>453831150.04250902</real>
 			<key>SourceItemDisplayInfo</key>
@@ -197,9 +159,9 @@
 				<key>SrcEditor Selected Location</key>
 				<integer>293</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>1132</integer>
+				<integer>944</integer>
 				<key>SrcEditor Visible Location</key>
-				<integer>0</integer>
+				<integer>12323</integer>
 			</dict>
 		</dict>
 		<key>WoodCubeA</key>
