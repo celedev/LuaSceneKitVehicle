@@ -15,6 +15,8 @@
 
 @interface AAPLGameViewController : UIViewController <SCNSceneRendererDelegate>
 
+@property (weak, nonatomic) IBOutlet NSLayoutConstraint *loadingImageCenterConstraint;
+
 - (BOOL)isHighEndDevice;
 
 - (void)addTrainToScene:(SCNScene *)scene atPosition:(SCNVector3)pos;

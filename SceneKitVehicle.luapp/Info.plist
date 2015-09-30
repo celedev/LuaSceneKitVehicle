@@ -31,7 +31,7 @@
 				<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/headers</string>
 			</array>
 			<key>CustomBindingsLibLastGenerationDate</key>
-			<date>2015-09-16T10:12:24Z</date>
+			<date>2015-09-30T08:53:57Z</date>
 			<key>CustomBindingsLibPlatformSdkName</key>
 			<string>iphoneos9.0</string>
 			<key>CustomBindingsLibSourceFilesTree</key>
@@ -59,7 +59,7 @@
 			Q29udHJvbGxlci5o0zgTDFVaPaRWVzpZgBaAF4ANgBikW1xcXoAZ
 			gBqAGoAbgA9fEBJnZW5lcmF0aW9uRmlsZURhdGVfEBRnZW5lcmF0
 			aW9uRGlkU3VjY2VlZF8QF2dlbmVyYXRpb25MdWFNb2R1a2VQYXRo
-			I0G7DOnaAAAACV8QFkFBUExHYW1lVmlld0NvbnRyb2xsZXLUCQoL
+			I0G7uv+EAAAACV8QFkFBUExHYW1lVmlld0NvbnRyb2xsZXLUCQoL
 			DGdoaSiAHoAdgCCAEF5BQVBMR2FtZVZpZXcuaNMrDCwtLm+AAIAL
 			gB9fEHhmaWxlOi8vL1ZvbHVtZXMvQnJ1bWUvQ2VsZWRldiUyMENv
 			ZGVGbG93L0NvZGVGbG93JTIwU2FtcGxlJTIwQXBwbGljYXRpb25z
@@ -115,7 +115,7 @@
 		<key>LuaAppWindow edited source path</key>
 		<string>GameViewController</string>
 		<key>LuaAppWindow frame</key>
-		<string>1098 653 1212 640 0 0 2560 1417 </string>
+		<string>875 581 1212 640 0 0 2560 1417 </string>
 	</dict>
 	<key>Program Format Version</key>
 	<string>0.9</string>
@@ -140,6 +140,8 @@
 		<dict>
 			<key>RootGroupId</key>
 			<string>SceneHandler</string>
+			<key>SourceItemChangeTime</key>
+			<real>465296024.35883898</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>ListController Group IsExpanded</key>
@@ -157,11 +159,11 @@
 				<key>SrcEditor Selected Length</key>
 				<integer>0</integer>
 				<key>SrcEditor Selected Location</key>
-				<integer>293</integer>
+				<integer>539</integer>
 				<key>SrcEditor Visible Length</key>
-				<integer>944</integer>
+				<integer>910</integer>
 				<key>SrcEditor Visible Location</key>
-				<integer>12323</integer>
+				<integer>0</integer>
 			</dict>
 		</dict>
 		<key>WoodCubeA</key>
@@ -245,7 +247,7 @@
 				<key>ImageViewerMagnification</key>
 				<real>1</real>
 				<key>ImageViewerVisibleHeight</key>
-				<real>500</real>
+				<real>428</real>
 				<key>ImageViewerVisibleOriginX</key>
 				<real>0.0</real>
 				<key>ImageViewerVisibleOriginY</key>
@@ -263,7 +265,7 @@
 				<key>ImageViewerMagnification</key>
 				<real>1</real>
 				<key>ImageViewerVisibleHeight</key>
-				<real>559</real>
+				<real>428</real>
 				<key>ImageViewerVisibleOriginX</key>
 				<real>0.0</real>
 				<key>ImageViewerVisibleOriginY</key>

@@ -11,10 +11,18 @@
 
 - (BOOL) application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    UIViewController* gameViewController = self.window.rootViewController;
+    
     _luaContext = [[CIMLuaContext alloc] initWithName:@"SceneHandler"];
     _luaContextMonitor = [[CIMLuaContextMonitor alloc] initWithLuaContext:_luaContext connectionTimeout:10.0];
     
-    [_luaContext loadLuaModuleNamed:@"GameViewController"];
+    [_luaContext loadLuaModuleNamed:@"GameViewController" withCompletionBlock:^(id result) {
+        
+        if (result != nil) {
+             // Configure the gameViewController in Lua
+            [(id<CIMLuaObject>)gameViewController promoteAsLuaObject];
+        }
+    }];
 
     return YES;
 }

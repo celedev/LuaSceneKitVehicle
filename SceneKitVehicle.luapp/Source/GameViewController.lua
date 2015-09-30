@@ -4,6 +4,17 @@ local ScnMaterial = require 'SceneKit.SCNMaterialProperty'
 
 local GameViewController = class.extendClass(objc.AAPLGameViewController)
 
+function GameViewController:viewDidLoad()
+    self[GameViewController.superclass]:viewDidLoad()
+    self:setupSceneView()
+end
+
+function GameViewController:promoteAsLuaObject()
+    if self.isViewLoaded then
+         self:setupSceneView()
+    end
+end
+
 local SCNScene = objc.SCNScene
 local SCNNode = objc.SCNNode
 local SCNLight = objc.SCNLight
@@ -19,8 +30,49 @@ local SCNVector3Zero = ScnTypes.SCNVector3Zero
 
 local UIColor = objc.UIColor
 
+local NSLayoutConstraint = objc.NSLayoutConstraint
+
 local M_PI = math.pi
 local rand = math.random
+
+local UIView =objc.UIView
+
+function GameViewController:setupSceneView()
+    
+    if self.loadingImageCenterConstraint ~= nil then
+        UIView:animateWithDuration_animations (0.5,
+                                               function()
+                                                   self.loadingImageCenterConstraint.constant = self.view.bounds.size.height
+                                                   self.view:layoutIfNeeded()
+                                               end)
+         
+    end
+    
+    local scnView = self.view
+    scnView.backgroundColor = UIColor.blackColor
+    
+    -- setup the scene
+    local scene = self:setupScene()
+    scnView.scene = scene
+    
+    -- tweak physics
+    scnView.scene.physicsWorld.speed = 4.0
+    
+    -- setup overlays
+    scnView.overlaySKScene = objc.AAPLOverlayScene:newWithSize(scnView.bounds.size)
+    
+    -- setup accelerometer
+    self:setupAccelerometer()
+    
+    -- set initial point of view
+    scnView.pointOfView = self.cameraNode
+    
+    -- plug game logic
+    scnView.delegate = self
+    
+    -- subscribe to update message
+    self:addMessageHandler("system.did_load_module", "refreshScene")
+end
 
 function GameViewController:setupEnvironment (scene)
     -- floor
@@ -289,36 +341,6 @@ function GameViewController:setupScene()
     return scene
 end
 
-function GameViewController:viewDidLoad()
-    -- call superclass
-    self[objc.UIViewController]:viewDidLoad()
-    
-    local scnView = self.view
-    scnView.backgroundColor = UIColor.blackColor
-    
-    -- setup the scene
-    local scene = self:setupScene()
-    scnView.scene = scene
-    
-    -- tweak physics
-    scnView.scene.physicsWorld.speed = 4.0
-    
-    -- setup overlays
-    scnView.overlaySKScene = objc.AAPLOverlayScene:newWithSize(scnView.bounds.size)
-    
-    -- setup accelerometer
-    self:setupAccelerometer()
-    
-    -- set initial point of view
-    scnView.pointOfView = self.cameraNode
-    
-    -- plug game logic
-    scnView.delegate = self
-    
-    -- subscribe to update message
-    self:addMessageHandler("system.did_load_module", "refreshScene")
-end
-
 local vehicleMaxSpeed = 250
 local defaultEngineForce = 250.0
 local defaultBrakingForce = 2.0
@@ -380,17 +402,17 @@ function GameViewController:renderer_didSimulatePhysicsAtTime(renderer, time)
         local carNode = self.vehicleNode.presentationNode
         local carPosition = carNode.position
         local cameraPosition = self.cameraNode.position
-        local cameraTargetPosition = {x = carPosition.x, y = 18.0, z = carPosition.z + 20.0}
+        local cameraTargetPosition = {x = carPosition.x, y = 48.0, z = carPosition.z + 50.0}
         self.cameraNode.position = cameraTargetPosition
         self.cameraNode.position = { x = cameraTargetPosition.x + cameraDamping * (cameraPosition.x - cameraTargetPosition.x),
                                      y = cameraTargetPosition.y + cameraDamping * (cameraPosition.y - cameraTargetPosition.y),
                                      z = cameraTargetPosition.z + cameraDamping * (cameraPosition.z - cameraTargetPosition.z)}
         
         -- move the spollight on top of the car
-        self.spotLightNode.position = SCNVector3(carPosition.x, 40., carPosition.z + 30)
-        self.spotLightNode.rotation = SCNVector4(1,0,0,-M_PI/3.4)
+        self.spotLightNode.position = SCNVector3(carPosition.x, 20., carPosition.z + 30)
+        self.spotLightNode.rotation = SCNVector4(1,0,0,-M_PI/4.5)
         self.spotLightNode.light.spotInnerAngle = 0
-        self.spotLightNode.light.spotOuterAngle = 50
+        self.spotLightNode.light.spotOuterAngle = 80
         
     else
         local backCameraNode = self.backCameraNode
@@ -405,10 +427,10 @@ function GameViewController:renderer_didSimulatePhysicsAtTime(renderer, time)
             
         -- move the spotlight in front of the camera
         local frontPosition = scnView.pointOfView.presentationNode:convertPosition_toNode(SCNVector3(0, 0, -30), nil)
-        self.spotLightNode.position = SCNVector3(frontPosition.x, 70., frontPosition.z)
+        self.spotLightNode.position = SCNVector3(frontPosition.x, 50., frontPosition.z)
         self.spotLightNode.rotation = SCNVector4(1,0,0,-M_PI/2)
-        self.spotLightNode.light.spotInnerAngle = 0
-        self.spotLightNode.light.spotOuterAngle = 60
+        self.spotLightNode.light.spotInnerAngle = 60
+        self.spotLightNode.light.spotOuterAngle = 80
     end
     
     -- update speed gauge

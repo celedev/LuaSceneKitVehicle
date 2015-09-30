@@ -7,14 +7,14 @@
 	<key>IDESourceControlProjectIdentifier</key>
 	<string>895CD228-8B31-40F2-AD6E-BBC3E3B6860D</string>
 	<key>IDESourceControlProjectName</key>
-	<string>SceneKitVehicle</string>
+	<string>project</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
 		<key>E70F8A7F6934777AD4C7953700C043E0DF75E071</key>
 		<string>https://github.com/celedev/ScenKitVehicle.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
-	<string>SceneKitVehicle.xcodeproj</string>
+	<string>SceneKitVehicle.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
 		<key>E70F8A7F6934777AD4C7953700C043E0DF75E071</key>
