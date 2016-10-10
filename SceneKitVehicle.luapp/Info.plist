@@ -6,7 +6,7 @@
 	<array>
 		<dict>
 			<key>LibId</key>
-			<string>apple_sdk_iphoneos9.0</string>
+			<string>apple_sdk_iphoneos9.3</string>
 			<key>LibName</key>
 			<string>iOS</string>
 		</dict>
@@ -19,6 +19,11 @@
 			<array>
 				<string>-fembed-bitcode</string>
 			</array>
+			<key>CustomBindingsLibGenerationOptions</key>
+			<dict>
+				<key>CIMStoreObjcMethodsInfo</key>
+				<true/>
+			</dict>
 			<key>CustomBindingsLibHeadersParsingOptions</key>
 			<array>
 				<string>-include</string>
@@ -27,67 +32,65 @@
 			</array>
 			<key>CustomBindingsLibHeadersSearchPaths</key>
 			<array>
-				<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/iphoneos/include</string>
 				<string>$(USER_LIBRARY_DIR)/Application\ Support/com.celedev.CodeFlow/headers</string>
 			</array>
 			<key>CustomBindingsLibLastGenerationDate</key>
-			<date>2015-09-30T08:53:57Z</date>
+			<date>2016-10-10T15:27:25Z</date>
 			<key>CustomBindingsLibPlatformSdkName</key>
-			<string>iphoneos9.0</string>
+			<string>iphoneos9.3</string>
 			<key>CustomBindingsLibSourceFilesTree</key>
 			<data>
-			YnBsaXN0MDDUAQIDBAUGqKlYJHZlcnNpb25YJG9iamVjdHNZJGFy
-			Y2hpdmVyVCR0b3ASAAGGoK8QLgcIERIXHB0kKSowMTc+P0BESU5P
-			U1RgYWJjZGVma2xwcX1+f4SFiYqWl5ibn6RVJG51bGzUCQoLDA0O
-			DxBWb2JqZWN0VG5hbWVaYXR0cmlidXRlc1YkY2xhc3OAA4ACgC2A
-			LFDSEwwUFlpOUy5vYmplY3RzoRWABIAq1AkKCwwYGRoQgAaABYAr
-			gCxfEA9TY2VuZUtpdFZlaGljbGXSEwweFqQfICEigAeAEYAcgCOA
-			KtQJCgsMJSYnKIAJgAiADIAQXxARQUFQTEFwcERlbGVnYXRlLmjT
-			KwwsLS4vV05TLmJhc2VbTlMucmVsYXRpdmWAAIALgApfEHtmaWxl
-			Oi8vL1ZvbHVtZXMvQnJ1bWUvQ2VsZWRldiUyMENvZGVGbG93L0Nv
-			ZGVGbG93JTIwU2FtcGxlJTIwQXBwbGljYXRpb25zL1NjZW5lS2l0
-			VmVoaWNsZS9TY2VuZUtpdFZlaGljbGUvQUFQTEFwcERlbGVnYXRl
-			LmjSMjM0NVokY2xhc3NuYW1lWCRjbGFzc2VzVU5TVVJMojQ2WE5T
-			T2JqZWN00zgTDDk7PVdOUy5rZXlzoTqADaE8gA6AD1hzZWxlY3Rl
-			ZAjSMjNBQl8QE05TTXV0YWJsZURpY3Rpb25hcnmjQUM2XE5TRGlj
-			dGlvbmFyedIyM0VGXENERkxOYW1lZFVybKNHSDZcQ0RGTE5hbWVk
-			VXJsXUNERkxOYW1lZEl0ZW3UCQoLDEpLTCiAE4ASgBWAEF8QGEFB
-			UExHYW1lVmlld0NvbnRyb2xsZXIuaNMrDCwtLlKAAIALgBRfEIJm
-			aWxlOi8vL1ZvbHVtZXMvQnJ1bWUvQ2VsZWRldiUyMENvZGVGbG93
-			L0NvZGVGbG93JTIwU2FtcGxlJTIwQXBwbGljYXRpb25zL1NjZW5l
-			S2l0VmVoaWNsZS9TY2VuZUtpdFZlaGljbGUvQUFQTEdhbWVWaWV3
-			Q29udHJvbGxlci5o0zgTDFVaPaRWVzpZgBaAF4ANgBikW1xcXoAZ
-			gBqAGoAbgA9fEBJnZW5lcmF0aW9uRmlsZURhdGVfEBRnZW5lcmF0
-			aW9uRGlkU3VjY2VlZF8QF2dlbmVyYXRpb25MdWFNb2R1a2VQYXRo
-			I0G7uv+EAAAACV8QFkFBUExHYW1lVmlld0NvbnRyb2xsZXLUCQoL
-			DGdoaSiAHoAdgCCAEF5BQVBMR2FtZVZpZXcuaNMrDCwtLm+AAIAL
-			gB9fEHhmaWxlOi8vL1ZvbHVtZXMvQnJ1bWUvQ2VsZWRldiUyMENv
-			ZGVGbG93L0NvZGVGbG93JTIwU2FtcGxlJTIwQXBwbGljYXRpb25z
-			L1NjZW5lS2l0VmVoaWNsZS9TY2VuZUtpdFZlaGljbGUvQUFQTEdh
-			bWVWaWV3LmjTOBMMcnc9pFZXOlmAFoAXgA2AGKR4XFx7gCGAGoAa
-			gCKADyNBuXbFggAAAFxBQVBMR2FtZVZpZXfUCQoLDICBgiiAJYAk
-			gCeAEF8QEkFBUExPdmVybGF5U2NlbmUuaNMrDCwtLoiAAIALgCZf
-			EHxmaWxlOi8vL1ZvbHVtZXMvQnJ1bWUvQ2VsZWRldiUyMENvZGVG
-			bG93L0NvZGVGbG93JTIwU2FtcGxlJTIwQXBwbGljYXRpb25zL1Nj
-			ZW5lS2l0VmVoaWNsZS9TY2VuZUtpdFZlaGljbGUvQUFQTE92ZXJs
-			YXlTY2VuZS5o0zgTDIuQPaRWVzpZgBaAF4ANgBikkVxclIAogBqA
-			GoApgA8jQbl2xYIAAABfEBBBQVBMT3ZlcmxheVNjZW5l0jIzmZpX
-			TlNBcnJheaKZNtM4EwycnT2goIAP0jIzoKFeQ0RGTE5hbWVkR3Jv
-			dXCjoqM2XkNERkxOYW1lZEdyb3VwXUNERkxOYW1lZEl0ZW3TOBMM
-			paY9oKCAD18QD05TS2V5ZWRBcmNoaXZlctGqq1Ryb290gAEACAAR
-			ABoAIwAtADIANwBoAG4AdwB+AIMAjgCVAJcAmQCbAJ0AngCjAK4A
-			sACyALQAvQC/AMEAwwDFANcA3ADhAOMA5QDnAOkA6wD0APYA+AD6
-			APwBEAEXAR8BKwEtAS8BMQGvAbQBvwHIAc4B0QHaAeEB6QHrAe0B
-			7wHxAfMB/AH9AgICGAIcAikCLgI7Aj8CTAJaAmMCZQJnAmkCawKG
-			Ao0CjwKRApMDGAMfAyQDJgMoAyoDLAMxAzMDNQM3AzkDOwNQA2cD
-			gQOKA4sDpAOtA68DsQOzA7UDxAPLA80DzwPRBEwEUwRYBFoEXARe
-			BGAEZQRnBGkEawRtBG8EeASFBI4EkASSBJQElgSrBLIEtAS2BLgF
-			NwU+BUMFRQVHBUkFSwVQBVIFVAVWBVgFWgVjBXYFewWDBYYFjQWO
-			BY8FkQWWBaUFqQW4BcYFzQXOBc8F0QXjBeYF6wAAAAAAAAIBAAAA
-			AAAAAKwAAAAAAAAAAAAAAAAAAAXt
+			YnBsaXN0MDDUAQIDBAUGrK1YJHZlcnNpb25YJG9iamVjdHNZJGFy
+			Y2hpdmVyVCR0b3ASAAGGoK8QLAcIERIXHB0kKSowMTdERUZHSElK
+			S09UWVpeX2tscXJ2d4OEiYqOj5ucn6OoVSRudWxs1AkKCwwNDg8Q
+			Vm9iamVjdFRuYW1lWmF0dHJpYnV0ZXNWJGNsYXNzgAOAAoArgCpQ
+			0hMMFBZaTlMub2JqZWN0c6EVgASAKNQJCgsMGBkaEIAGgAWAKYAq
+			XxAPU2NlbmVLaXRWZWhpY2xl0hMMHhakHyAhIoAHgBaAHIAigCjU
+			CQoLDCUmJyiACYAIgAyAFV1BcHBEZWxlZ2F0ZS5o0ysMLC0uL1dO
+			Uy5iYXNlW05TLnJlbGF0aXZlgACAC4AKXxB3ZmlsZTovLy9Wb2x1
+			bWVzL0JydW1lL0NlbGVkZXYlMjBDb2RlRmxvdy9Db2RlRmxvdyUy
+			MFNhbXBsZSUyMEFwcGxpY2F0aW9ucy9TY2VuZUtpdFZlaGljbGUv
+			U2NlbmVLaXRWZWhpY2xlL0FwcERlbGVnYXRlLmjSMjM0NVokY2xh
+			c3NuYW1lWCRjbGFzc2VzVU5TVVJMojQ2WE5TT2JqZWN00zgTDDk+
+			Q1dOUy5rZXlzpDo7PD2ADYAOgA+AEKQ/QEBCgBGAEoASgBOAFF8Q
+			EmdlbmVyYXRpb25GaWxlRGF0ZV8QFGdlbmVyYXRpb25EaWRTdWNj
+			ZWVkWHNlbGVjdGVkXxAXZ2VuZXJhdGlvbkx1YU1vZHVrZVBhdGgj
+			Qb2r6psAAAAJW0FwcERlbGVnYXRl0jIzTE1fEBNOU011dGFibGVE
+			aWN0aW9uYXJ5o0xONlxOU0RpY3Rpb25hcnnSMjNQUVxDREZMTmFt
+			ZWRVcmyjUlM2XENERkxOYW1lZFVybF1DREZMTmFtZWRJdGVt1AkK
+			CwxVVlcogBiAF4AagBVfEBRHYW1lVmlld0NvbnRyb2xsZXIuaNMr
+			DCwtLl2AAIALgBlfEH5maWxlOi8vL1ZvbHVtZXMvQnJ1bWUvQ2Vs
+			ZWRldiUyMENvZGVGbG93L0NvZGVGbG93JTIwU2FtcGxlJTIwQXBw
+			bGljYXRpb25zL1NjZW5lS2l0VmVoaWNsZS9TY2VuZUtpdFZlaGlj
+			bGUvR2FtZVZpZXdDb250cm9sbGVyLmjTOBMMYGVDpDo7PD2ADYAO
+			gA+AEKQ/QEBpgBGAEoASgBuAFF8QEkdhbWVWaWV3Q29udHJvbGxl
+			ctQJCgsMbW5vKIAegB2AIIAVWkdhbWVWaWV3LmjTKwwsLS51gACA
+			C4AfXxB0ZmlsZTovLy9Wb2x1bWVzL0JydW1lL0NlbGVkZXYlMjBD
+			b2RlRmxvdy9Db2RlRmxvdyUyMFNhbXBsZSUyMEFwcGxpY2F0aW9u
+			cy9TY2VuZUtpdFZlaGljbGUvU2NlbmVLaXRWZWhpY2xlL0dhbWVW
+			aWV3LmjTOBMMeH1DpDo7PD2ADYAOgA+AEKQ/QECBgBGAEoASgCGA
+			FFhHYW1lVmlld9QJCgsMhYaHKIAkgCOAJoAVXk92ZXJsYXlTY2Vu
+			ZS5o0ysMLC0ujYAAgAuAJV8QeGZpbGU6Ly8vVm9sdW1lcy9CcnVt
+			ZS9DZWxlZGV2JTIwQ29kZUZsb3cvQ29kZUZsb3clMjBTYW1wbGUl
+			MjBBcHBsaWNhdGlvbnMvU2NlbmVLaXRWZWhpY2xlL1NjZW5lS2l0
+			VmVoaWNsZS9PdmVybGF5U2NlbmUuaNM4EwyQlUOkOjs8PYANgA6A
+			D4AQpD9AQJmAEYASgBKAJ4AUXE92ZXJsYXlTY2VuZdIyM52eV05T
+			QXJyYXminTbTOBMMoKFDoKCAFNIyM6SlXkNERkxOYW1lZEdyb3Vw
+			o6anNl5DREZMTmFtZWRHcm91cF1DREZMTmFtZWRJdGVt0zgTDKmq
+			Q6CggBRfEA9OU0tleWVkQXJjaGl2ZXLRrq9Ucm9vdIABAAgAEQAa
+			ACMALQAyADcAZgBsAHUAfACBAIwAkwCVAJcAmQCbAJwAoQCsAK4A
+			sACyALsAvQC/AMEAwwDVANoA3wDhAOMA5QDnAOkA8gD0APYA+AD6
+			AQgBDwEXASMBJQEnASkBowGoAbMBvAHCAcUBzgHVAd0B4gHkAeYB
+			6AHqAe8B8QHzAfUB9wH5Ag4CJQIuAkgCUQJSAl4CYwJ5An0CigKP
+			ApwCoAKtArsCxALGAsgCygLMAuMC6gLsAu4C8ANxA3gDfQN/A4ED
+			gwOFA4oDjAOOA5ADkgOUA6kDsgO0A7YDuAO6A8UDzAPOA9AD0gRJ
+			BFAEVQRXBFkEWwRdBGIEZARmBGgEagRsBHUEfgSABIIEhASGBJUE
+			nASeBKAEogUdBSQFKQUrBS0FLwUxBTYFOAU6BTwFPgVABU0FUgVa
+			BV0FZAVlBWYFaAVtBXwFgAWPBZ0FpAWlBaYFqAW6Bb0FwgAAAAAA
+			AAIBAAAAAAAAALAAAAAAAAAAAAAAAAAAAAXE
 			</data>
 			<key>CustomBindingsLibTargetOSVersion</key>
-			<string>8.0</string>
+			<string>8.3</string>
 			<key>CustomBindingsLibXcodeTargetInfo</key>
 			<dict>
 				<key>target</key>
@@ -112,18 +115,23 @@
 			<key>targetType</key>
 			<string>com.apple.product-type.application</string>
 		</dict>
+		<key>LuaAppDocument-luapkgExportVersion</key>
+		<integer>0</integer>
+		<key>LuaAppDocument-remote service pattern</key>
+		<string>starts:SceneKitVehicle - SceneKitLuaContext</string>
 		<key>LuaAppWindow edited source path</key>
 		<string>GameViewController</string>
 		<key>LuaAppWindow frame</key>
-		<string>875 581 1212 640 0 0 2560 1417 </string>
+		<string>1147 533 1140 696 0 0 2560 1417 </string>
 	</dict>
 	<key>Program Format Version</key>
-	<string>0.9</string>
+	<string>0.92</string>
 	<key>Program Groups Order</key>
 	<dict>
 		<key></key>
 		<array>
 			<string>GameViewController</string>
+			<string>GameViewController-Setup</string>
 			<string>floor</string>
 			<string>wall</string>
 			<string>WoodCubeA</string>
@@ -139,140 +147,71 @@
 		<key></key>
 		<dict>
 			<key>RootGroupId</key>
-			<string>SceneHandler</string>
+			<string>SceneKitLuaContext</string>
+			<key>SourceGroupChildItemsOrder</key>
+			<array>
+				<string>GameViewController.lua</string>
+				<string>GameViewController-Setup.lua</string>
+				<string>floor.png</string>
+				<string>wall.jpeg</string>
+				<string>WoodCubeA.jpeg</string>
+				<string>WoodCubeB.jpeg</string>
+				<string>WoodCubeC.jpeg</string>
+				<string>carpet.jpeg</string>
+			</array>
 			<key>SourceItemChangeTime</key>
-			<real>465296024.35883898</real>
+			<real>486829647.717161</real>
 			<key>SourceItemDisplayInfo</key>
 			<dict>
 				<key>ListController Group IsExpanded</key>
 				<true/>
 			</dict>
+			<key>SourceItemName</key>
+			<string></string>
 		</dict>
-		<key>GameViewController</key>
+		<key>::GameViewController-Setup.lua</key>
 		<dict>
 			<key>Source File Auto Reload</key>
 			<true/>
 			<key>SourceItemChangeTime</key>
-			<real>453831150.04250902</real>
-			<key>SourceItemDisplayInfo</key>
-			<dict>
-				<key>SrcEditor Selected Length</key>
-				<integer>0</integer>
-				<key>SrcEditor Selected Location</key>
-				<integer>539</integer>
-				<key>SrcEditor Visible Length</key>
-				<integer>910</integer>
-				<key>SrcEditor Visible Location</key>
-				<integer>0</integer>
-			</dict>
+			<real>486830532.79265499</real>
 		</dict>
-		<key>WoodCubeA</key>
+		<key>::GameViewController.lua</key>
+		<dict>
+			<key>Source File Auto Reload</key>
+			<true/>
+			<key>SourceItemChangeTime</key>
+			<real>486831453.79238701</real>
+		</dict>
+		<key>::WoodCubeA.jpeg</key>
 		<dict>
 			<key>SourceItemChangeTime</key>
-			<real>435791328.92438799</real>
-			<key>SourceItemDisplayInfo</key>
-			<dict>
-				<key>ImageViewerMagnification</key>
-				<real>1</real>
-				<key>ImageViewerVisibleHeight</key>
-				<real>256</real>
-				<key>ImageViewerVisibleOriginX</key>
-				<real>0.0</real>
-				<key>ImageViewerVisibleOriginY</key>
-				<real>0.0</real>
-				<key>ImageViewerVisibleWidth</key>
-				<real>256</real>
-			</dict>
+			<real>475950381.08340698</real>
 		</dict>
-		<key>WoodCubeB</key>
+		<key>::WoodCubeB.jpeg</key>
 		<dict>
 			<key>SourceItemChangeTime</key>
-			<real>435674921.12128001</real>
-			<key>SourceItemDisplayInfo</key>
-			<dict>
-				<key>ImageViewerMagnification</key>
-				<real>1</real>
-				<key>ImageViewerVisibleHeight</key>
-				<real>256</real>
-				<key>ImageViewerVisibleOriginX</key>
-				<real>0.0</real>
-				<key>ImageViewerVisibleOriginY</key>
-				<real>0.0</real>
-				<key>ImageViewerVisibleWidth</key>
-				<real>256</real>
-			</dict>
+			<real>475950381.08417398</real>
 		</dict>
-		<key>WoodCubeC</key>
+		<key>::WoodCubeC.jpeg</key>
 		<dict>
 			<key>SourceItemChangeTime</key>
-			<real>434626815.44217199</real>
-			<key>SourceItemDisplayInfo</key>
-			<dict>
-				<key>ImageViewerMagnification</key>
-				<real>1</real>
-				<key>ImageViewerVisibleHeight</key>
-				<real>256</real>
-				<key>ImageViewerVisibleOriginX</key>
-				<real>0.0</real>
-				<key>ImageViewerVisibleOriginY</key>
-				<real>0.0</real>
-				<key>ImageViewerVisibleWidth</key>
-				<real>256</real>
-			</dict>
+			<real>475950381.08376098</real>
 		</dict>
-		<key>carpet</key>
+		<key>::carpet.jpeg</key>
 		<dict>
 			<key>SourceItemChangeTime</key>
-			<real>435674826.71158099</real>
-			<key>SourceItemDisplayInfo</key>
-			<dict>
-				<key>ImageViewerMagnification</key>
-				<real>1</real>
-				<key>ImageViewerVisibleHeight</key>
-				<real>256</real>
-				<key>ImageViewerVisibleOriginX</key>
-				<real>0.0</real>
-				<key>ImageViewerVisibleOriginY</key>
-				<real>0.0</real>
-				<key>ImageViewerVisibleWidth</key>
-				<real>512</real>
-			</dict>
+			<real>475950381.08595198</real>
 		</dict>
-		<key>floor</key>
+		<key>::floor.png</key>
 		<dict>
 			<key>SourceItemChangeTime</key>
-			<real>435842913.49389303</real>
-			<key>SourceItemDisplayInfo</key>
-			<dict>
-				<key>ImageViewerMagnification</key>
-				<real>1</real>
-				<key>ImageViewerVisibleHeight</key>
-				<real>428</real>
-				<key>ImageViewerVisibleOriginX</key>
-				<real>0.0</real>
-				<key>ImageViewerVisibleOriginY</key>
-				<real>0.0</real>
-				<key>ImageViewerVisibleWidth</key>
-				<real>500</real>
-			</dict>
+			<real>475950381.08573902</real>
 		</dict>
-		<key>wall</key>
+		<key>::wall.jpeg</key>
 		<dict>
 			<key>SourceItemChangeTime</key>
-			<real>435842873.53099102</real>
-			<key>SourceItemDisplayInfo</key>
-			<dict>
-				<key>ImageViewerMagnification</key>
-				<real>1</real>
-				<key>ImageViewerVisibleHeight</key>
-				<real>428</real>
-				<key>ImageViewerVisibleOriginX</key>
-				<real>0.0</real>
-				<key>ImageViewerVisibleOriginY</key>
-				<real>0.0</real>
-				<key>ImageViewerVisibleWidth</key>
-				<real>171</real>
-			</dict>
+			<real>475950381.083956</real>
 		</dict>
 	</dict>
 </dict>

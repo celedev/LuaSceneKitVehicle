@@ -1,12 +1,12 @@
-/*
- Copyright (C) 2014 Apple Inc. All Rights Reserved.
- See LICENSE.txt for this sample’s licensing information
+//
+//  OverlayScene.m
+//  SceneKitVehicle
+//
+//
 
- */
+#import "OverlayScene.h"
 
-#import "AAPLOverlayScene.h"
-
-@implementation AAPLOverlayScene
+@implementation OverlayScene
 
 -(id)initWithSize:(CGSize)size {
     if (self = [super initWithSize:size]) {

@@ -1,14 +1,16 @@
 # SceneKitVehicle
 
-This 3D car game is a direct port to CodeFlow of a WWDC 214 code sample demonstrating the use of SceneKit on iOS. It illustrates the huge benefits that live-coding can bring in this type of application, by adjusting the game logic or rendering parameters in real-time while playing to the game. 
+This 3D car game is a direct port to CodeFlow of a WWDC 214 code sample demonstrating the use of SceneKit on iOS. It shows the benefits that live-coding can bring in this type of application, by changing the game logic or rendering parameters in real-time while playing to the game. 
 
 This is also a good example of a class-extension-based application where methods of a class originally defined in Objective-C are (re)defined in Lua. You can see in the code that some methods of the original code has been kept untouched in Objective-C while other have been rewritten and improved in Lua.
 
+This code sample is also available as a project template in CodeFlow.
+
 ## Configuration required
 
-A Mac with Celedev CodeFlow version 0.9.19 or later, and Xcode 6.2 or later.
+A Mac with Celedev CodeFlow version 1.0.2 or later, and Xcode 7 or later.
 
-Works on iPhone or iPad, running iOS 8 or later. The Xcode project requires Xcode 6 or later.
+Works on iPhone or iPad, running iOS 8.3 or later.
 
 ## How to use this code sample
 
@@ -19,23 +21,19 @@ Works on iPhone or iPad, running iOS 8 or later. The Xcode project requires Xcod
 
 3. Run the application on a device or in the simulator.
 
-4. In CodeFlow, select the application in the `Target` popup menu in the project window toolbar. The app stops on a breakpoint at the first line of the Lua program.
-
-5. Click on the `Continue` button in the toolbar (or use the CodeFlow debugger for stepping in the program) 
-
-6. Enjoy the power of live coding with CodeFlow
+4. Enjoy the power of live coding with CodeFlow
 
 ## Troubleshooting
 
 - **Some libraries / header files in the sample app Xcode project are missing**
 
-  **⇒ Fix**: open the corresponding CodeFlow project, and CodeFlow will update the associated Xcode project, so that paths and libraries are correctly set.
+  **⇒ Fix**: simply open the corresponding CodeFlow project, and CodeFlow will update the associated Xcode project, so that paths and libraries are correctly set.
 
 ## License
 
 This application is provided under the MIT License (MIT)
 
-Copyright (c) 2014-2015 Celedev.
+Copyright (c) 2014-2016 Celedev.
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal

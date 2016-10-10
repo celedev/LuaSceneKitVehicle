@@ -1,13 +1,13 @@
-/*
- Copyright (C) 2014 Apple Inc. All Rights Reserved.
- See LICENSE.txt for this sample’s licensing information
-
- */
+//
+//  GameView.m
+//  SceneKitVehicle
+//
+//
 
 #import <SpriteKit/SpriteKit.h>
-#import "AAPLGameView.h"
+#import "GameView.h"
 
-@implementation AAPLGameView
+@implementation GameView
 
 - (void)changePointOfView
 {

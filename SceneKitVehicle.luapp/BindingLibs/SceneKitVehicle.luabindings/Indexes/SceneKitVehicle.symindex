@@ -4,21 +4,34 @@
 <dict>
 	<key>classes</key>
 	<dict>
-		<key>AAPLGameView</key>
+		<key>AppDelegate</key>
 		<dict>
 			<key>defined</key>
-			<string>AAPLGameView</string>
+			<string>AppDelegate</string>
 			<key>name</key>
-			<string>AAPLGameView</string>
+			<string>AppDelegate</string>
+			<key>protocols</key>
+			<array>
+				<string>UIApplicationDelegate</string>
+			</array>
+			<key>superclass</key>
+			<string>UIResponder</string>
+		</dict>
+		<key>GameView</key>
+		<dict>
+			<key>defined</key>
+			<string>GameView</string>
+			<key>name</key>
+			<string>GameView</string>
 			<key>superclass</key>
 			<string>SCNView</string>
 		</dict>
-		<key>AAPLGameViewController</key>
+		<key>GameViewController</key>
 		<dict>
 			<key>defined</key>
-			<string>AAPLGameViewController</string>
+			<string>GameViewController</string>
 			<key>name</key>
-			<string>AAPLGameViewController</string>
+			<string>GameViewController</string>
 			<key>protocols</key>
 			<array>
 				<string>SCNSceneRendererDelegate</string>
@@ -26,12 +39,12 @@
 			<key>superclass</key>
 			<string>UIViewController</string>
 		</dict>
-		<key>AAPLOverlayScene</key>
+		<key>OverlayScene</key>
 		<dict>
 			<key>defined</key>
-			<string>AAPLOverlayScene</string>
+			<string>OverlayScene</string>
 			<key>name</key>
-			<string>AAPLOverlayScene</string>
+			<string>OverlayScene</string>
 			<key>superclass</key>
 			<string>SKScene</string>
 		</dict>
@@ -39,12 +52,12 @@
 	<key>id</key>
 	<string>SceneKitVehicle</string>
 	<key>indexFormat</key>
-	<string>0.3</string>
+	<string>0.3.2</string>
 	<key>protocols</key>
 	<dict/>
 	<key>structs</key>
 	<dict/>
 	<key>version</key>
-	<string>4</string>
+	<string>1</string>
 </dict>
 </plist>
